@@ -85,7 +85,7 @@ const TokensAndMaps: React.FC = () => {
       name: 'Redação de Jornal',
       description: 'Ambiente de redação com estúdio de TV e rádio.',
       imagePath: '/src/assets/newsroom_map.png',
-      imagePath: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
       details:
         'Este mapa inclui: Redação principal, Estúdio de TV, Estúdio de rádio, Sala de edição, Arquivo, Sala de reuniões, Recepção e Área técnica.',
     },
@@ -120,10 +120,10 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'zoo',
-      name: 'Zoológico e Centro de Pesquisa',
+      name: 'Centro de Pesquisa',
       description: 'Complexo zoológico com áreas de pesquisa e conservação.',
       imagePath: '/src/assets/zoo_map.png',
-      imagePath: 'https://images.pexels.com/photos/133459/pexels-photo-133459.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
       details:
         'Este mapa inclui: Recintos dos animais, Laboratório veterinário, Centro de pesquisa, Berçário, Quarentena, Clínica veterinária, Administração e Área educativa.',
     },

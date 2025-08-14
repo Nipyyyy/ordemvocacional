@@ -102,9 +102,9 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'art_studio',
       name: 'Estúdio de Arte',
-      description: 'Espaço criativo com ateliês e salas de exposição.',
+      description: '',
       imagePath: '/src/assets/art_studio_map.png',
-      imagePath: 'https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
       details:
         'Este mapa inclui: Ateliês de pintura, Sala de escultura, Área de design digital, Galeria de exposição, Depósito de materiais, Sala de aula e Recepção.',
     },
@@ -114,7 +114,7 @@ const TokensAndMaps: React.FC = () => {
       description:
         'Complexo de produção audiovisual com sets e salas de edição.',
       imagePath: '/src/assets/film_studio_map.png',
-      imagePath: 'https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
       details:
         'Este mapa inclui: Sets de filmagem, Salas de edição, Estúdio de som, Camarins, Depósito de equipamentos, Sala de produção, Recepção e Área técnica.',
     },
@@ -129,23 +129,23 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'social_center',
-      name: 'Centro de Assistência Social',
+      name: 'Estudio Audiovisual',
       description:
-        'Centro comunitário com salas de atendimento e atividades sociais.',
+        'Centro de edicao audiovisual.',
       imagePath: '/src/assets/social_center_map.png',
-      imagePath: 'https://images.pexels.com/photos/8111262/pexels-photo-8111262.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
       details:
         'Este mapa inclui: Salas de atendimento, Auditório, Salas de atividades, Cozinha comunitária, Brinquedoteca, Biblioteca, Administração e Recepção.',
     },
     {
       id: 'tech_company',
-      name: 'Empresa de Tecnologia',
+      name: 'Julgamento',
       description:
         'Escritório moderno de tecnologia com laboratórios e salas de desenvolvimento.',
       imagePath: '/src/assets/tech_company_map.png',
-      imagePath: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
       details:
-        'Este mapa inclui: Área de desenvolvimento, Laboratório de testes, Salas de reunião, Área de descanso, Data center, Sala de servidores, Recepção e Coworking.',
+        'Este mapa inclui: ',
     },
   ];
 
@@ -517,43 +517,43 @@ const TokensAndMaps: React.FC = () => {
       id: 'enfermeira-1',
       name: 'Enfermeira',
       description: 'Enfermeira auxiliando no atendimento',
-      imagePath: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
     {
       id: 'gerente-ti',
       name: 'Gerente de TI',
       description: 'Supervisor da equipe de tecnologia',
-      imagePath: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
     {
       id: 'aluno-1',
       name: 'Aluno Curioso',
       description: 'Estudante fazendo perguntas',
-      imagePath: 'https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
     {
       id: 'cliente-juridico',
       name: 'Cliente Jurídico',
       description: 'Pessoa buscando assistência legal',
-      imagePath: 'https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
     {
       id: 'entrevistado',
       name: 'Entrevistado',
       description: 'Pessoa sendo entrevistada',
-      imagePath: 'https://images.pexels.com/photos/3944377/pexels-photo-3944377.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
     {
       id: 'familia-vulneravel',
       name: 'Família em Vulnerabilidade',
       description: 'Família necessitando de assistência',
-      imagePath: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
     {
       id: 'visitante-zoo',
       name: 'Visitante do Zoo',
       description: 'Pessoa visitando zoológico',
-      imagePath: 'https://images.pexels.com/photos/133459/pexels-photo-133459.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      imagePath: '',
     },
   ];
 

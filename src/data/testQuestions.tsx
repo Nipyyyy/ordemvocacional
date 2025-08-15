@@ -629,31 +629,31 @@ export const testQuestions: TestQuestion[] = [
   },
   {
     id: 7,
-    question: "Quais temas costumam chamar sua atenção em notícias e leituras?",
+    question: "Qual característica costuma influenciar mais suas ações?",
     options: [
       {
         id: "a",
-        text: "Assuntos relacionados a novidades e avanços que transformam o cotidiano",
+        text: "Encontrar formas estruturadas para entender e resolver situações.",
         points: { informatica: 3, publicidade: 2, cinema: 2 }
       },
       {
         id: "b",
-        text: "Conteúdos que falam sobre qualidade de vida e cuidados essenciais",
+        text: "Estar atento às necessidades e dinâmicas entre as pessoas.",
         points: { medicina: 3, assistente: 2, zoologia: 2 }
       },
       {
         id: "c",
-        text: "Informações que exploram diferentes formas de expressão e tradições",
+        text: "Buscar maneiras diferentes e originais para se expressar.",
         points: { artes: 3, cinema: 2, jornalismo: 2 }
       },
       {
         id: "d",
-        text: "Temas que discutem o funcionamento das relações entre grupos e comunidades",
+        text: "Facilitar o trabalho coletivo e a organização de atividades.",
         points: { professor: 3, direito: 2, jornalismo: 2, administracao: 2 }
       },
       {
         id: "e",
-        text: "Notícias sobre organização, finanças e dinâmicas de trabalho",
+        text: "Ter interesse constante em descobrir e compreender coisas novas.",
         points: { administracao: 3, direito: 2, informatica: 2 }
       }
     ]

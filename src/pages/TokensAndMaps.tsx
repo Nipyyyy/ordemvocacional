@@ -191,7 +191,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'dev-1',
           name: 'Desenvolvedor Frontend',
           description: 'Desenvolvedor trabalhando com interfaces web',
-          imagePath: 'https://i.imgur.com/dev-frontend.png',
+          imagePath: 'https://images.pexels.com/photos/33455098/pexels-photo-33455098.png?_gl=1*180pqvz*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUyNTI2NTgkbzkkZzEkdDE3NTUyNTI5NDQkajckbDAkaDA.',
         },
         {
           id: 'dev-2',

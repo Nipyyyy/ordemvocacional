@@ -16,71 +16,10 @@ Um teste vocacional interativo que combina elementos de RPG para descobrir sua v
 - Node.js 18+ 
 - npm ou yarn
 
-### Instalação
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/ordem-vocacional.git
-
-# Entre na pasta
-cd ordem-vocacional
-
-# Instale as dependências
-npm install
-
-# Execute o projeto
-npm run dev
-```
-
 ### Build para produção
 ```bash
 npm run build
 ```
-
-## 🌐 Deploy no Netlify
-
-### Opção 1: Deploy via Git (Recomendado)
-1. Faça push do código para um repositório GitHub
-2. Acesse [netlify.com](https://netlify.com) e faça login
-3. Clique em "New site from Git"
-4. Conecte seu repositório GitHub
-5. Configure:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `dist`
-6. Clique em "Deploy site"
-
-### Opção 2: Deploy Manual
-1. O build já foi executado e a pasta `dist` está pronta
-2. Acesse [netlify.com](https://netlify.com)
-3. Clique em "Add new site" > "Deploy manually"
-4. Arraste a pasta `dist` para a área de deploy
-5. Seu site estará online em poucos segundos!
-
-### Opção 3: Deploy via Netlify CLI
-```bash
-# Instale o Netlify CLI globalmente
-npm install -g netlify-cli
-
-# Faça login no Netlify
-netlify login
-
-# Deploy do site
-netlify deploy --prod --dir=dist
-```
-
-### ⚠️ Importante para o Deploy Manual
-Quando o build terminar, você encontrará todos os arquivos prontos na pasta `dist`. 
-Esta pasta contém:
-- `index.html` - Página principal
-- `assets/` - CSS, JS e outros recursos
-- `_redirects` - Configurações de redirecionamento
-- `.htaccess` - Configurações do servidor
-
-### Configurações do Netlify
-O projeto já inclui:
-- `netlify.toml` com configurações otimizadas
-- Redirects para SPA (Single Page Application)
-- Headers de cache para assets
-- Configurações de build automático
 
 ## 🎮 Sobre o Projeto
 

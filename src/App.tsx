@@ -15,14 +15,6 @@ function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen bg-gradient-to-br from-dark-blue to-dark-purple text-white">
-        {/* Skip Links para acessibilidade */}
-        <a href="#main-content" className="skip-link">
-          Pular para o conteúdo principal
-        </a>
-        <a href="#navigation" className="skip-link">
-          Pular para a navegação
-        </a>
-        
         <Header />
         <main id="main-content" className="flex-grow" role="main">
           <Routes>

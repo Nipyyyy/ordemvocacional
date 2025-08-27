@@ -11,21 +11,27 @@
   </head>
   <body>
     <div id="root"></div>
-<script>
-(function(){ var s = document.createElement('script');
-var h = document.querySelector('head') || document.body;
-s.charset="UTF-8"; s.src =
-'https://cdn.assistive.com.br/plugin/AssistiveWebPlugin.js';
-s.async = true; s.onload = function(){ assistive.init(
-{
-icon: 'default',
-mobile: {
-icon: 'gear',
-btnColor: '146FF8',
-bodyColor: '146FF8'
-}
-});};
-h.appendChild(s); })();
-</script>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Assistive - Central de Acessibilidade -->
+    <script>
+      (function(){ 
+        var s = document.createElement('script'); 
+        var h = document.querySelector('head') || document.body; 
+        s.charset="UTF-8"; 
+        s.src = 'https://cdn.assistive.com.br/plugin/AssistiveWebPlugin.js'; 
+        s.async = true; 
+        s.onload = function(){ 
+          assistive.init({
+            icon: 'default',
+            mobile: {
+              btnColor: '6B4EFF',
+              bodyColor: '1E1B2E'
+            }
+          });
+        }; 
+        h.appendChild(s); 
+      })();
+    </script>
   </body>
 </html>

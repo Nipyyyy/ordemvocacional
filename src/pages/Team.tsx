@@ -6,16 +6,16 @@ const Team: React.FC = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Ana Silva",
-      role: "Desenvolvedora Frontend",
-      description: "Apaixonada por criar interfaces bonitas e funcionais. Ama café e código limpo.",
+      name: "Pyetro",
+      role: "Desenvolvedora de Mapa",
+      description: "Mestre dos Mapas e apaixonada por RPG. Cria mapas interativos incríveis.",
       image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400",
       icon: <Code size={24} />,
       color: "from-red-600 to-red-800"
     },
     {
       id: 2,
-      name: "Carlos Santos",
+      name: "Renato",
       role: "Designer UX/UI",
       description: "Transforma ideias em experiências incríveis. Especialista em psicologia das cores.",
       image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -24,7 +24,7 @@ const Team: React.FC = () => {
     },
     {
       id: 3,
-      name: "Maria Oliveira",
+      name: "Gustavo",
       role: "Psicóloga Vocacional",
       description: "Especialista em orientação profissional. Ajuda pessoas a descobrirem seu propósito.",
       image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -33,7 +33,7 @@ const Team: React.FC = () => {
     },
     {
       id: 4,
-      name: "João Costa",
+      name: "Alice",
       role: "Game Designer",
       description: "Criador de mundos e narrativas. Especialista em RPG e mecânicas de jogo.",
       image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -42,7 +42,7 @@ const Team: React.FC = () => {
     },
     {
       id: 5,
-      name: "Lucia Ferreira",
+      name: "Paulo",
       role: "Gerente de Projeto",
       description: "Mantém tudo organizado e no prazo. A cola que une toda a equipe.",
       image: "https://images.pexels.com/photos/3184150/pexels-photo-3184150.jpeg?auto=compress&cs=tinysrgb&w=400",

@@ -5,7 +5,7 @@ import logo from '../assets/logo.tsx';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-dark-blue/90 border-t border-light-purple/20 pt-12 pb-6">
+    <footer className="bg-dark-blue/90 border-t border-light-purple/20 pt-12 pb-6" role="contentinfo">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Info */}
@@ -22,17 +22,17 @@ const Footer: React.FC = () => {
               Descubra sua verdadeira vocação através do nosso teste vocacional único, 
               inspirado em nosso RPG.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-accent-gold transition-colors">
+            <div className="flex space-x-4" role="list" aria-label="Redes sociais">
+              <a href="#" className="text-white hover:text-accent-gold transition-colors" aria-label="Facebook" role="listitem">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-white hover:text-accent-gold transition-colors">
+              <Link to="/o-outro-lado" className="text-white hover:text-accent-gold transition-colors" aria-label="Instagram" role="listitem">
                 <Instagram size={20} />
-              </a>
-              <a href="#" className="text-white hover:text-accent-gold transition-colors">
+              </Link>
+              <a href="#" className="text-white hover:text-accent-gold transition-colors" aria-label="Twitter" role="listitem">
                 <Twitter size={20} />
               </a>
-              <a href="mailto:contato@ordemvocacional.com" className="text-white hover:text-accent-gold transition-colors">
+              <a href="mailto:ordemvocacional@gmail.com" className="text-white hover:text-accent-gold transition-colors" aria-label="Email" role="listitem">
                 <Mail size={20} />
               </a>
             </div>
@@ -41,23 +41,27 @@ const Footer: React.FC = () => {
           {/* Links */}
           <div className="col-span-1">
             <h3 className="text-accent-gold font-medium mb-4">Links Rápidos</h3>
-            <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-300 hover:text-accent-gold transition-colors">Início</Link></li>
-              <li><Link to="/sobre" className="text-gray-300 hover:text-accent-gold transition-colors">Sobre o Teste</Link></li>
-              <li><Link to="/teste" className="text-gray-300 hover:text-accent-gold transition-colors">Fazer Teste</Link></li>
-              <li><Link to="/rpg" className="text-gray-300 hover:text-accent-gold transition-colors">RPG</Link></li>
-            </ul>
+            <nav aria-label="Links rápidos">
+              <ul className="space-y-2">
+                <li><Link to="/" className="text-gray-300 hover:text-accent-gold transition-colors">Início</Link></li>
+                <li><Link to="/sobre" className="text-gray-300 hover:text-accent-gold transition-colors">Sobre o Teste</Link></li>
+                <li><Link to="/teste" className="text-gray-300 hover:text-accent-gold transition-colors">Fazer Teste</Link></li>
+                <li><Link to="/rpg" className="text-gray-300 hover:text-accent-gold transition-colors">RPG</Link></li>
+              </ul>
+            </nav>
           </div>
 
           {/* RPG Section */}
           <div className="col-span-1">
             <h3 className="text-accent-gold font-medium mb-4">RPG</h3>
-            <ul className="space-y-2">
-              <li><Link to="/rpg#regras" className="text-gray-300 hover:text-accent-gold transition-colors">Regras</Link></li>
-              <li><Link to="/rpg#cenarios" className="text-gray-300 hover:text-accent-gold transition-colors">Cenários</Link></li>
-              <li><Link to="/rpg#personagens" className="text-gray-300 hover:text-accent-gold transition-colors">Personagens</Link></li>
-              <li><Link to="/rpg#tokens" className="text-gray-300 hover:text-accent-gold transition-colors">Tokens</Link></li>
-            </ul>
+            <nav aria-label="Links do RPG">
+              <ul className="space-y-2">
+                <li><Link to="/rpg#regras" className="text-gray-300 hover:text-accent-gold transition-colors">Regras</Link></li>
+                <li><Link to="/rpg#cenarios" className="text-gray-300 hover:text-accent-gold transition-colors">Cenários</Link></li>
+                <li><Link to="/rpg#personagens" className="text-gray-300 hover:text-accent-gold transition-colors">Personagens</Link></li>
+                <li><Link to="/rpg#tokens" className="text-gray-300 hover:text-accent-gold transition-colors">Tokens</Link></li>
+              </ul>
+            </nav>
           </div>
 
           {/* Contact */}
@@ -67,8 +71,9 @@ const Footer: React.FC = () => {
               Tem dúvidas ou sugestões? Entre em contato conosco.
             </p>
             <a 
-              href="mailto:contato@ordemvocacional.com" 
+              href="mailto:ordemvocacional@gmail.com" 
               className="text-white hover:text-accent-gold transition-colors"
+              aria-label="Enviar email para ordemvocacional@gmail.com"
             >
               ordemvocacional@gmail.com
             </a>

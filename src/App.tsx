@@ -8,6 +8,7 @@ import Test from './pages/Test';
 import Results from './pages/Results';
 import RPGInfo from './pages/RPGInfo';
 import TokensAndMaps from './pages/TokensAndMaps';
+import Team from './pages/Team';
 import NotFound from './pages/NotFound';
 import './index.css';
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/resultados" element={<Results />} />
             <Route path="/rpg" element={<RPGInfo />} />
             <Route path="/tokens-e-mapas" element={<TokensAndMaps />} />
+            <Route path="/o-outro-lado" element={<Team />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

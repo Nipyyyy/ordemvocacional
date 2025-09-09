@@ -141,6 +141,15 @@ select:focus-visible {
   animation: bounce-subtle 1s ease-in-out infinite;
 }
 
+/* Text shadow para melhor legibilidade */
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
 /* Estados de loading melhorados */
 .loading-overlay {
   @apply absolute inset-0 bg-dark-blue/80 backdrop-blur-sm flex items-center justify-center z-10;

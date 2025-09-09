@@ -53,18 +53,14 @@ const Team: React.FC = () => {
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Background com degradê em seções */}
-      <div className="absolute inset-0 flex">
-        <div className="flex-1 bg-gradient-to-br from-red-600 to-red-800"></div>
-        <div className="flex-1 bg-gradient-to-br from-gray-800 to-black"></div>
-        <div className="flex-1 bg-gradient-to-br from-yellow-500 to-yellow-700"></div>
-        <div className="flex-1 bg-gradient-to-br from-purple-600 to-purple-800"></div>
-        <div className="flex-1 bg-gradient-to-br from-gray-300 to-gray-500"></div>
+      {/* Novo fundo degradê secreto */}
+      <div className="absolute inset-0">
+        <div className="w-full h-full bg-gradient-to-br from-[#1a1a2e] via-[#23234a] to-[#ffd700]">
+          <div className="absolute inset-0 bg-gradient-radial from-black/80 via-[#23234a]/80 to-transparent"></div>
+        </div>
       </div>
-
-      {/* Overlay para melhor legibilidade */}
+      {/* Overlay para legibilidade */}
       <div className="absolute inset-0 bg-black/40"></div>
-
       <div className="relative z-10 pt-24 pb-16">
         <div className="container mx-auto px-4">
           <motion.div
@@ -73,10 +69,10 @@ const Team: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h1 className="text-5xl md:text-7xl font-cinzel font-bold text-white mb-6 text-shadow-lg">
+            <h1 className="text-4xl md:text-6xl font-cinzel font-bold text-white mb-6 text-shadow-lg">
               O Outro Lado
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto text-shadow">
+            <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto text-shadow">
               Conheça as mentes por trás da Ordem Vocacional. 
               Somos mais que desenvolvedores - somos sonhadores, criadores e guias vocacionais.
             </p>
@@ -85,20 +81,18 @@ const Team: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Grid da Equipe */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-16">
+          {/* Grid centralizada */}
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-center mb-16">
             {teamMembers.map((member, index) => (
               <motion.div
                 key={member.id}
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="group"
+                className="group flex flex-col items-center"
               >
                 <div className="relative">
-                  {/* Card do membro */}
                   <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:transform hover:scale-105 hover:bg-white/15">
-                    {/* Foto */}
                     <div className="relative mb-6">
                       <div className={`absolute inset-0 bg-gradient-to-br ${member.color} rounded-full blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500`}></div>
                       <div className="relative w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white/60 transition-all duration-500">
@@ -108,24 +102,17 @@ const Team: React.FC = () => {
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                         />
                       </div>
-                      {/* Ícone da profissão */}
                       <div className={`absolute -bottom-2 -right-2 w-12 h-12 bg-gradient-to-br ${member.color} rounded-full flex items-center justify-center text-white shadow-lg border-2 border-white/30`}>
                         {member.icon}
                       </div>
                     </div>
-
-                    {/* Nome */}
-                    <h3 className="text-xl font-cinzel font-bold text-white text-center mb-2">
+                    <h3 className="text-lg md:text-xl font-cinzel font-bold text-white text-center mb-2">
                       {member.name}
                     </h3>
-
-                    {/* Cargo */}
-                    <p className="text-white/80 text-center font-medium mb-4">
+                    <p className="text-white/80 text-center font-medium mb-2">
                       {member.role}
                     </p>
-
-                    {/* Descrição */}
-                    <p className="text-white/70 text-sm text-center leading-relaxed">
+                    <p className="text-white/70 text-xs md:text-sm text-center leading-relaxed">
                       {member.description}
                     </p>
                   </div>

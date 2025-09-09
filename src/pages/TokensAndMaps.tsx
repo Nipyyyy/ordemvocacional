@@ -284,7 +284,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'adm-1',
           name: 'Gestor de Projetos',
           description: 'Profissional gerenciando equipes e projetos',
-          imagePath: '/src/assets/gestor_projetos.png',
+          imagePath: 'https://images.pexels.com/photos/33838599/pexels-photo-33838599.png?_gl=1*1vfftlm*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNTYyJGoyJGwwJGgw',
         },
         {
           id: 'adm-2',

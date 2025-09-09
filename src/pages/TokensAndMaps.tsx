@@ -164,8 +164,7 @@ const TokensAndMaps: React.FC = () => {
         {
           id: 'medico-2',
           name: 'Médico Emergencista',
-          description:
-            'Médico com máscara e prancheta em situação de emergência',
+          description: 'Médico com máscara e prancheta em situação de emergência',
           imagePath: 'https://images.pexels.com/photos/33414748/pexels-photo-33414748.png?_gl=1*9y6ye2*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTQ5OTc5MjMkbzQkZzEkdDE3NTQ5OTk1NzkkajU4JGwwJGgw',
         },
         {
@@ -173,12 +172,6 @@ const TokensAndMaps: React.FC = () => {
           name: 'Médica com Seringa',
           description: 'Médica preparando aplicação de vacina ou medicamento',
           imagePath: 'https://images.pexels.com/photos/33414743/pexels-photo-33414743.png?_gl=1*1pl1ekh*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTQ5OTc5MjMkbzQkZzEkdDE3NTQ5OTkxNjUkajQwJGwwJGgw',
-        },
-        {
-          id: 'medica-2',
-          name: 'Médica com Oxímetro',
-          description: 'Médica utilizando oxímetro para verificar saturação',
-          imagePath: 'https://images.pexels.com/photos/33414747/pexels-photo-33414747.png?_gl=1*zna0la*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTQ5OTc5MjMkbzQkZzEkdDE3NTQ5OTk2OTIkajU5JGwwJGgw',
         },
       ],
     },
@@ -205,12 +198,6 @@ const TokensAndMaps: React.FC = () => {
           description: 'Profissional trabalhando com big data e machine learning',
           imagePath: 'https://images.pexels.com/photos/33838600/pexels-photo-33838600.png?_gl=1*1flxxqq*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNDQ1JGo1OSRsMCRoMA..',
         },
-        {
-          id: 'dev-4',
-          name: 'Cientista de Dados',
-          description: 'Profissional analisando dados e estatísticas',
-          imagePath: 'https://i.imgur.com/cientista-dados.png',
-        },
       ],
     },
     {
@@ -235,12 +222,6 @@ const TokensAndMaps: React.FC = () => {
           name: 'Professora de Portugues',
           description: 'Professora explicando a matéria',
           imagePath: 'https://images.pexels.com/photos/33414958/pexels-photo-33414958.png?_gl=1*nc0wqp*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTQ5OTc5MjMkbzQkZzEkdDE3NTUwMDA0MjIkajU5JGwwJGgw',
-        },
-        {
-          id: 'prof-4',
-          name: 'Professor de Educação Física',
-          description: 'Professor orientando atividades esportivas',
-          imagePath: 'https://i.imgur.com/prof-educacao-fisica.png',
         },
       ],
     },
@@ -267,12 +248,6 @@ const TokensAndMaps: React.FC = () => {
           description: 'Promotor de justiça em tribunal',
           imagePath: '/src/assets/promotor.png',
         },
-        {
-          id: 'adv-4',
-          name: 'Advogado Empresarial',
-          description: 'Advogado especializado em direito empresarial',
-          imagePath: '/src/assets/advogado_empresarial.png',
-        },
       ],
     },
     {
@@ -298,12 +273,6 @@ const TokensAndMaps: React.FC = () => {
           description: 'Designer criando interfaces de usuário',
           imagePath: '/src/assets/designer_ux_ui.png',
         },
-        {
-          id: 'art-4',
-          name: 'Diretor de Arte',
-          description: 'Profissional dirigindo projetos visuais',
-          imagePath: '/src/assets/diretor_arte.png',
-        },
       ],
     },
     {
@@ -315,7 +284,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'adm-1',
           name: 'Gestor de Projetos',
           description: 'Profissional gerenciando equipes e projetos',
-          imagePath: 'https://images.pexels.com/photos/33838599/pexels-photo-33838599.png?_gl=1*1vfftlm*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNTYyJGoyJGwwJGgw',
+          imagePath: '/src/assets/gestor_projetos.png',
         },
         {
           id: 'adm-2',
@@ -328,12 +297,6 @@ const TokensAndMaps: React.FC = () => {
           name: 'Empreendedora',
           description: 'Profissional de recursos humanos',
           imagePath: 'https://images.pexels.com/photos/33838601/pexels-photo-33838601.png?_gl=1*15abzcp*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNTMxJGozMyRsMCRoMA..',
-        },
-        {
-          id: 'adm-4',
-          name: 'Empreendedor',
-          description: 'Empresário desenvolvendo novos negócios',
-          imagePath: '/src/assets/empreendedor.png',
         },
       ],
     },
@@ -360,12 +323,6 @@ const TokensAndMaps: React.FC = () => {
           description: 'Profissional editando matérias jornalísticas',
           imagePath: '/src/assets/editor_conteudo.png',
         },
-        {
-          id: 'jorn-4',
-          name: 'Fotojornalista',
-          description: 'Jornalista especializado em fotografia',
-          imagePath: '/src/assets/fotojornalista.png',
-        },
       ],
     },
     {
@@ -390,12 +347,6 @@ const TokensAndMaps: React.FC = () => {
           name: 'Social Media Manager',
           description: 'Especialista em redes sociais',
           imagePath: '/src/assets/social_media_manager.png',
-        },
-        {
-          id: 'pub-4',
-          name: 'Planejador de Mídia',
-          description: 'Profissional planejando veiculação de campanhas',
-          imagePath: '/src/assets/planejador_midia.png',
         },
       ],
     },
@@ -422,12 +373,6 @@ const TokensAndMaps: React.FC = () => {
           description: 'Profissional editando material audiovisual',
           imagePath: '/src/assets/editor_video.png',
         },
-        {
-          id: 'cin-4',
-          name: 'Produtor Audiovisual',
-          description: 'Profissional produzindo conteúdo audiovisual',
-          imagePath: '/src/assets/produtor_audiovisual.png',
-        },
       ],
     },
     {
@@ -453,12 +398,6 @@ const TokensAndMaps: React.FC = () => {
           description: 'Profissional trabalhando na preservação animal',
           imagePath: '/src/assets/conservacionista.png',
         },
-        {
-          id: 'zoo-4',
-          name: 'Veterinário de Zoo',
-          description: 'Veterinário cuidando de animais selvagens',
-          imagePath: '/src/assets/veterinario_zoo.png',
-        },
       ],
     },
     {
@@ -483,12 +422,6 @@ const TokensAndMaps: React.FC = () => {
           name: 'Educador Social',
           description: 'Profissional trabalhando com educação social',
           imagePath: '/src/assets/educador_social.png',
-        },
-        {
-          id: 'ass-4',
-          name: 'Gestor de ONG',
-          description: 'Profissional gerenciando organização social',
-          imagePath: '/src/assets/gestor_ong.png',
         },
       ],
     },
@@ -516,8 +449,8 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'enfermeira-1',
       name: 'Enfermeira',
-      description: 'Enfermeira auxiliando no atendimento',
-      imagePath: '',
+      description: 'Médica utilizando oxímetro para verificar saturação',
+      imagePath: 'https://images.pexels.com/photos/33414747/pexels-photo-33414747.png?_gl=1*zna0la*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTQ5OTc5MjMkbzQkZzEkdDE3NTQ5OTk2OTIkajU5JGwwJGgw',
     },
     {
       id: 'gerente-ti',
@@ -644,7 +577,7 @@ const TokensAndMaps: React.FC = () => {
                         transition={{ duration: 0.3 }}
                         className="mt-6 border-t border-light-purple/20 pt-6"
                       >
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-center items-center mx-auto">
                           {category.tokens.map((token) => (
                             <motion.div
                               key={token.id}

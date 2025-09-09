@@ -190,20 +190,20 @@ const TokensAndMaps: React.FC = () => {
         {
           id: 'dev-1',
           name: 'Desenvolvedor Frontend',
-          description: 'Desenvolvedor trabalhando com interfaces web',
+          description: 'Desenvolvedor trabalhando em código front-end',
           imagePath: 'https://images.pexels.com/photos/33455098/pexels-photo-33455098.png?_gl=1*180pqvz*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUyNTI2NTgkbzkkZzEkdDE3NTUyNTI5NDQkajckbDAkaDA.',
         },
         {
           id: 'dev-2',
           name: 'Analista de Sistemas',
-          description: 'Profissional analisando arquitetura de sistemas',
-          imagePath: 'https://i.imgur.com/analista-sistemas.png',
+          description: 'Profissional analisando códigos e sistemas',
+          imagePath: 'https://images.pexels.com/photos/33838602/pexels-photo-33838602.png?_gl=1*dnp9e7*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDE5Nzc0JGo0NyRsMCRoMA..',
         },
         {
           id: 'dev-3',
-          name: 'Administrador de Redes',
-          description: 'Especialista em infraestrutura e redes',
-          imagePath: 'https://i.imgur.com/admin-redes.png',
+          name: 'Cientista de Dados',
+          description: 'Profissional trabalhando com big data e machine learning',
+          imagePath: 'https://images.pexels.com/photos/33838600/pexels-photo-33838600.png?_gl=1*1flxxqq*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNDQ1JGo1OSRsMCRoMA..',
         },
         {
           id: 'dev-4',
@@ -315,7 +315,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'adm-1',
           name: 'Gestor de Projetos',
           description: 'Profissional gerenciando equipes e projetos',
-          imagePath: '/src/assets/gestor_projetos.png',
+          imagePath: 'https://images.pexels.com/photos/33838599/pexels-photo-33838599.png?_gl=1*1vfftlm*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNTYyJGoyJGwwJGgw',
         },
         {
           id: 'adm-2',
@@ -325,9 +325,9 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'adm-3',
-          name: 'Gestor de RH',
+          name: 'Empreendedora',
           description: 'Profissional de recursos humanos',
-          imagePath: '/src/assets/gestor_rh.png',
+          imagePath: 'https://images.pexels.com/photos/33838601/pexels-photo-33838601.png?_gl=1*15abzcp*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc0MTk2NTYkbzExJGcxJHQxNzU3NDIwNTMxJGozMyRsMCRoMA..',
         },
         {
           id: 'adm-4',

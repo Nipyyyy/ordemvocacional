@@ -53,14 +53,17 @@ const Team: React.FC = () => {
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Novo fundo degradê secreto */}
-      <div className="absolute inset-0">
-        <div className="w-full h-full bg-gradient-to-br from-[#1a1a2e] via-[#23234a] to-[#ffd700]">
-          <div className="absolute inset-0 bg-gradient-radial from-black/80 via-[#23234a]/80 to-transparent"></div>
-        </div>
+      {/* Novo fundo degradê secreto com vermelho, preto, amarelo, roxo e branco */}
+      <div className="absolute inset-0 -z-10">
+        <div
+          className="w-full h-full"
+          style={{
+            background: "linear-gradient(135deg, #ff0000 0%, #000000 25%, #ffd700 50%, #800080 75%, #ffffff 100%)"
+          }}
+        />
       </div>
       {/* Overlay para legibilidade */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/40 -z-10"></div>
       <div className="relative z-10 pt-24 pb-16">
         <div className="container mx-auto px-4">
           <motion.div

@@ -9,8 +9,8 @@ const Team: React.FC = () => {
       name: "Pyetro",
       role: "Dev do Site",
       description: "O fluxo que banha o outro lado",
-      image: "https://images.pexels.com/photos/33852423/pexels-photo-33852423.png",
-      icon: <Code size={50} />,
+      image: "https://images.pexels.com/photos/33852491/pexels-photo-33852491.png",
+      icon: <Code size={24} />,
       color: "from-red-600 to-red-800"
     },
     {
@@ -45,7 +45,7 @@ const Team: React.FC = () => {
       name: "Paulo",
       role: "Gerente de Projeto",
       description: "Mantém tudo organizado e no prazo. A cola que une toda a equipe.",
-      image: "https://images.pexels.com/photos/33852422/pexels-photo-33852422.png",
+      image: "https://images.pexels.com/photos/33852490/pexels-photo-33852490.png",
       icon: <Users size={24} />,
       color: "from-gray-300 to-gray-500"
     }

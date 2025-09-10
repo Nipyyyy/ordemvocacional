@@ -98,13 +98,17 @@ const Team: React.FC = () => {
                   <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:transform hover:scale-105 hover:bg-white/15">
                     <div className="relative mb-6">
                       <div className={`absolute inset-0 bg-gradient-to-br ${member.color} rounded-full blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500`}></div>
-                      <div className="relative w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white/60 transition-all duration-500">
-                        <img 
-                          src={member.image} 
-                          alt={member.name}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                        />
-                      </div>
+                      <div
+                        className="relative w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white/60 transition-all duration-500 group-hover:scale-110"
+                        style={{
+                          backgroundImage: `url(${member.image})`,
+                          backgroundSize: 'cover',
+                          backgroundPosition: 'center',
+                          backgroundRepeat: 'no-repeat'
+                        }}
+                        role="img"
+                        aria-label={`Foto de ${member.name}`}
+                      ></div>
                       <div className={`absolute -bottom-2 -right-2 w-12 h-12 bg-gradient-to-br ${member.color} rounded-full flex items-center justify-center text-white shadow-lg border-2 border-white/30`}>
                         {member.icon}
                       </div>

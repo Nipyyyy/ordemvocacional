@@ -9,7 +9,7 @@ const Team: React.FC = () => {
       name: "Pyetro",
       role: "Dev do Site",
       description: "O fluxo que banha o outro lado",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2F4GiyZcYPrgc&psig=AOvVaw3l4_3UHqZ8XSt8Q1jCXoyH&ust=1757589601135000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjz69SJzo8DFQAAAAAdAAAAABBJ",
+      image: "https://images.pexels.com/photos/33851655/pexels-photo-33851655.png",
       icon: <Code size={24} />,
       color: "from-red-600 to-red-800"
     },
@@ -18,7 +18,7 @@ const Team: React.FC = () => {
       name: "Renato",
       role: "Musica & Designer",
       description: "Todas as coisas precisam de um fim",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fordemparanormal.fandom.com%2Fwiki%2FO_Deus_da_Morte&psig=AOvVaw0h90eQrpmObmVFdEHXdqyH&ust=1757589979555000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCKwIaLzo8DFQAAAAAdAAAAABAE",
+      image: "https://images.pexels.com/photos/33851658/pexels-photo-33851658.png?_gl=1*14upyb5*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc1MDYwNjYkbzEyJGcxJHQxNzU3NTA2NDc5JGo0OCRsMCRoMA..",
       icon: <Palette size={24} />,
       color: "from-gray-800 to-black"
     },
@@ -27,7 +27,7 @@ const Team: React.FC = () => {
       name: "Gustavo",
       role: "Desenhista",
       description: "Saber tudo é perder tudo",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fordemparanormal.fandom.com%2Fwiki%2FA_Magistrada&psig=AOvVaw1_EbM-XCcmfnJVzJelJDJZ&ust=1757590185875000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCOjc3uiLzo8DFQAAAAAdAAAAABCWAg",
+      image: "https://images.pexels.com/photos/33851657/pexels-photo-33851657.png?_gl=1*756zs3*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc1MDYwNjYkbzEyJGcxJHQxNzU3NTA2NTgzJGo1NSRsMCRoMA..",
       icon: <Heart size={24} />,
       color: "from-yellow-500 to-yellow-700"
     },
@@ -36,7 +36,7 @@ const Team: React.FC = () => {
       name: "Alice",
       role: "Orientadora Vocacional",
       description: "O CAOS É INEVITÁVEL",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.jamboeditora.com.br%2Fda-stream-para-ordem-paranormal-rpg-os-jogos-o-anfitriao-e-o-publico%2F&psig=AOvVaw10yEDGV2kVqj0nNk4wVLAo&ust=1757590461495000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLCe0-2Mzo8DFQAAAAAdAAAAABAL",
+      image: "https://images.pexels.com/photos/33851656/pexels-photo-33851656.png",
       icon: <BookOpen size={24} />,
       color: "from-purple-600 to-purple-800"
     },
@@ -45,7 +45,7 @@ const Team: React.FC = () => {
       name: "Paulo",
       role: "Gerente de Projeto",
       description: "Mantém tudo organizado e no prazo. A cola que une toda a equipe.",
-      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fash-78-344656621%2Fkian-ordem-paranormal&psig=AOvVaw36uTVlgxvnADolkiUpOKhS&ust=1757590536522000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKDPlo-Nzo8DFQAAAAAdAAAAABAW",
+      image: "https://images.pexels.com/photos/33851654/pexels-photo-33851654.png",
       icon: <Users size={24} />,
       color: "from-gray-300 to-gray-500"
     }

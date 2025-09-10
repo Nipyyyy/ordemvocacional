@@ -7,36 +7,36 @@ const Team: React.FC = () => {
     {
       id: 1,
       name: "Pyetro",
-      role: "Desenvolvedora de Mapa",
-      description: "Mestre dos Mapas e apaixonada por RPG. Cria mapas interativos incríveis.",
-      image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400",
+      role: "Dev do Site",
+      description: "O fluxo que banha o outro lado",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fshorts%2F4GiyZcYPrgc&psig=AOvVaw3l4_3UHqZ8XSt8Q1jCXoyH&ust=1757589601135000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjz69SJzo8DFQAAAAAdAAAAABBJ",
       icon: <Code size={24} />,
       color: "from-red-600 to-red-800"
     },
     {
       id: 2,
       name: "Renato",
-      role: "Designer UX/UI",
-      description: "Transforma ideias em experiências incríveis. Especialista em psicologia das cores.",
-      image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+      role: "Musica & Designer",
+      description: "Todas as coisas precisam de um fim",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fordemparanormal.fandom.com%2Fwiki%2FO_Deus_da_Morte&psig=AOvVaw0h90eQrpmObmVFdEHXdqyH&ust=1757589979555000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCKwIaLzo8DFQAAAAAdAAAAABAE",
       icon: <Palette size={24} />,
       color: "from-gray-800 to-black"
     },
     {
       id: 3,
       name: "Gustavo",
-      role: "Psicóloga Vocacional",
-      description: "Especialista em orientação profissional. Ajuda pessoas a descobrirem seu propósito.",
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400",
+      role: "Desenhista",
+      description: "Saber tudo é perder tudo",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fordemparanormal.fandom.com%2Fwiki%2FA_Magistrada&psig=AOvVaw1_EbM-XCcmfnJVzJelJDJZ&ust=1757590185875000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCOjc3uiLzo8DFQAAAAAdAAAAABCWAg",
       icon: <Heart size={24} />,
       color: "from-yellow-500 to-yellow-700"
     },
     {
       id: 4,
       name: "Alice",
-      role: "Game Designer",
-      description: "Criador de mundos e narrativas. Especialista em RPG e mecânicas de jogo.",
-      image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400",
+      role: "Orientadora Vocacional",
+      description: "O CAOS É INEVITÁVEL",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.jamboeditora.com.br%2Fda-stream-para-ordem-paranormal-rpg-os-jogos-o-anfitriao-e-o-publico%2F&psig=AOvVaw10yEDGV2kVqj0nNk4wVLAo&ust=1757590461495000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLCe0-2Mzo8DFQAAAAAdAAAAABAL",
       icon: <BookOpen size={24} />,
       color: "from-purple-600 to-purple-800"
     },
@@ -45,7 +45,7 @@ const Team: React.FC = () => {
       name: "Paulo",
       role: "Gerente de Projeto",
       description: "Mantém tudo organizado e no prazo. A cola que une toda a equipe.",
-      image: "https://images.pexels.com/photos/3184150/pexels-photo-3184150.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fash-78-344656621%2Fkian-ordem-paranormal&psig=AOvVaw36uTVlgxvnADolkiUpOKhS&ust=1757590536522000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKDPlo-Nzo8DFQAAAAAdAAAAABAW",
       icon: <Users size={24} />,
       color: "from-gray-300 to-gray-500"
     }

@@ -1,0 +1,149 @@
+[33mcommit aeaac4be480c6734ea80fe91eccebd6f33693a74[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Sep 10 12:36:05 2025 +0000
+
+    teste de img
+
+[33mcommit c7dfc3bf2e456bec94e909df03714839e7a8e128[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Sep 10 12:32:41 2025 +0000
+
+    Resolve bug da img quadrada
+
+[33mcommit d42ece193c0e3b8289576af79f0db4dc784b4843[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Sep 10 12:25:03 2025 +0000
+
+    Mudanca nos icons de perfil, do google para pexels
+
+[33mcommit e00aee776e622659227ceff8eaa13e16ad59b508[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Sep 10 11:36:06 2025 +0000
+
+    Colocando foto e descricao team
+
+[33mcommit e298b23a12f8501e0d272b27a19bfc2d3a54a48d[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 14:35:07 2025 +0000
+
+    Muda nome
+
+[33mcommit a6f15a54ee63be60679256c07b412c706b5ef3ff[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 14:29:18 2025 +0000
+
+    Tentativa 2 do background
+
+[33mcommit 8f59340ddc8672a596879bec885be56881170ed5[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 14:26:53 2025 +0000
+
+    Tentativa de melhorar o background
+
+[33mcommit 4e9c4ff29fae1221331a631c1c9e3f2d42c1b64c[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 14:19:37 2025 +0000
+
+    Local secreto de OUTRO LADO
+
+[33mcommit 9708dfd564a318b4f9bd7ec06b7a1c4300157dbf[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 13:53:03 2025 +0000
+
+    Muda icon
+
+[33mcommit 3507bdb6c95633379f5369c161be84cb46ce7fca[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 12:48:32 2025 +0000
+
+    Adição de Token
+
+[33mcommit 24b896182c3c03675a7cd4c1a9c1d1abed85664a[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 12:46:43 2025 +0000
+
+    Diminuir o nº de tokens para 3
+
+[33mcommit d5a95d5b4ae64aa1dde7a1beebfd1350fc3bf8ba[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Tue Sep 9 12:29:48 2025 +0000
+
+    Personagens novos
+
+[33mcommit 53c53c43dac8678ff9ddd38baab45fb0301216dd[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Aug 27 13:37:37 2025 +0000
+
+    Cor dark purple alterada de #1E1B2E para #0F0F17
+
+[33mcommit 653c1fd7f97ebd7983dcd6e0bb2767c18d7cc0d7[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Aug 27 13:27:13 2025 +0000
+
+    Commit de Restaurar correção do Ass
+
+[33mcommit 40cdd5a276af52e2dad9bfc6468202a36051857d[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Aug 27 13:24:26 2025 +0000
+
+    commit de mudanca de cor no assitente
+
+[33mcommit a2e4b5aad286374c591181f9b493bcc48268b2ba[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Aug 27 12:38:45 2025 +0000
+
+    Commit de palavras soltas
+
+[33mcommit 0dc9caf5ea7bc60a7126e12c09d1083b3ae6a01e[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Wed Aug 27 12:00:54 2025 +0000
+
+    commit de Assistive Features
+
+[33mcommit bf1453fe08827d2d39ed97eeaccdc2593e35d9aa[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Mon Aug 18 07:30:05 2025 -0300
+
+    Update README.md
+
+[33mcommit 794a3660fe7e4db2a1154d110f17a21f9beedce8[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Fri Aug 15 11:26:34 2025 +0000
+
+    commit
+
+[33mcommit 473325d228d832bba42774c74038845e8bde27e0[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Fri Aug 15 07:54:41 2025 -0300
+
+    Coloquei o ultimo Profissional Player antes da apresentação
+
+[33mcommit 66742125636cb7fb908b08e8f5ed11ce819e475a[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Thu Aug 14 20:01:43 2025 -0300
+
+    Reparei as ultimas imagens
+
+[33mcommit 487064e5682adbff5bebf1d0c52506fe6c77b211[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Thu Aug 14 19:59:06 2025 -0300
+
+    Atualizei e tirei a imagens dos tokens nao necessarios
+
+[33mcommit 2430c027f75ff494f764c75e8893046be5bebd6d[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Thu Aug 14 19:47:27 2025 -0300
+
+    Add files via upload
+
+[33mcommit d7ca625846be1744fac57a7a56902e15cdd149d6[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Thu Aug 14 19:47:01 2025 -0300
+
+    Add files via upload
+
+[33mcommit 1cffed3c5f2321f1f45044058b44ea16c91f5483[m
+Author: nipy <nipyy17@gmail.com>
+Date:   Thu Aug 14 19:45:28 2025 -0300
+
+    init

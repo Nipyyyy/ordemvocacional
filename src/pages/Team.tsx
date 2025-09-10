@@ -44,7 +44,7 @@ const Team: React.FC = () => {
       id: 5,
       name: "Paulo",
       role: "Gerente de Projeto",
-      description: "Mantém tudo organizado e no prazo. A cola que une toda a equipe.",
+      description: "O Medo é impossivel",
       image: "https://images.pexels.com/photos/33852490/pexels-photo-33852490.png",
       icon: <Users size={24} />,
       color: "from-gray-300 to-gray-500"

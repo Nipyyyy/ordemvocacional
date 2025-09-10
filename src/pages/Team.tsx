@@ -10,7 +10,7 @@ const Team: React.FC = () => {
       role: "Dev do Site",
       description: "O fluxo que banha o outro lado",
       image: "https://images.pexels.com/photos/33851655/pexels-photo-33851655.png",
-      icon: <Code size={24} />,
+      icon: <Code size={50} />,
       color: "from-red-600 to-red-800"
     },
     {

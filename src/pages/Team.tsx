@@ -9,7 +9,7 @@ const Team: React.FC = () => {
       name: "Pyetro",
       role: "Dev do Site",
       description: "O fluxo que banha o outro lado",
-      image: "https://images.pexels.com/photos/33852181/pexels-photo-33852181.png",
+      image: "https://images.pexels.com/photos/33852181/pexels-photo-33852181.pnghttps://images.pexels.com/photos/33852423/pexels-photo-33852423.png",
       icon: <Code size={50} />,
       color: "from-red-600 to-red-800"
     },
@@ -27,7 +27,7 @@ const Team: React.FC = () => {
       name: "Gustavo",
       role: "Desenhista",
       description: "Saber tudo é perder tudo",
-      image: "https://images.pexels.com/photos/33852284/pexels-photo-33852284.jpeg",
+      image: "https://images.pexels.com/photos/33852421/pexels-photo-33852421.jpeg",
       icon: <Heart size={24} />,
       color: "from-yellow-500 to-yellow-700"
     },
@@ -45,7 +45,7 @@ const Team: React.FC = () => {
       name: "Paulo",
       role: "Gerente de Projeto",
       description: "Mantém tudo organizado e no prazo. A cola que une toda a equipe.",
-      image: "https://images.pexels.com/photos/33852315/pexels-photo-33852315.png",
+      image: "https://images.pexels.com/photos/33852422/pexels-photo-33852422.png",
       icon: <Users size={24} />,
       color: "from-gray-300 to-gray-500"
     }

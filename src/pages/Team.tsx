@@ -17,7 +17,7 @@ const Team: React.FC = () => {
       id: 2,
       name: "Renato",
       role: "Musica & Designer",
-      description: "Todas as coisas precisam de um fim",
+      description: "Tudo precisa de um fim",
       image: "https://images.pexels.com/photos/33851658/pexels-photo-33851658.png?_gl=1*14upyb5*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTc1MDYwNjYkbzEyJGcxJHQxNzU3NTA2NDc5JGo0OCRsMCRoMA..",
       icon: <Palette size={24} />,
       color: "from-gray-800 to-black"
@@ -77,7 +77,7 @@ const Team: React.FC = () => {
             </h1>
             <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto text-shadow">
               Conheça as mentes por trás da Ordem Vocacional. 
-              Somos mais que desenvolvedores - somos sonhadores, criadores e guias vocacionais.
+              Somos muito mais que só um grupinho
             </p>
             <div className="mt-8 flex justify-center">
               <div className="h-1 w-32 bg-white/80 rounded-full"></div>
@@ -139,11 +139,10 @@ const Team: React.FC = () => {
               {/* Título da seção */}
               <div className="text-center mb-8">
                 <h2 className="text-3xl md:text-4xl font-cinzel font-bold text-white mb-4">
-                  Nossa Jornada Juntos
+                  Reliquias 
                 </h2>
                 <p className="text-white/80 max-w-2xl mx-auto">
-                  Unidos pela paixão de ajudar pessoas a descobrirem seu verdadeiro potencial. 
-                  Cada um de nós traz uma perspectiva única para criar algo extraordinário.
+                  Unidos pela sensação de esperar até sabado à noite para ver RPG
                 </p>
               </div>
 
@@ -161,10 +160,10 @@ const Team: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end">
                   <div className="p-8 w-full">
                     <h3 className="text-2xl md:text-3xl font-cinzel font-bold text-white mb-2">
-                      Equipe Ordem Vocacional
+                      Ordem Vocacional
                     </h3>
                     <p className="text-white/90 text-lg">
-                      "Transformando vidas através da descoberta vocacional"
+                      "Transformando vidas através do paranormal"
                     </p>
                   </div>
                 </div>
@@ -184,9 +183,7 @@ const Team: React.FC = () => {
                 Uma Mensagem da Equipe
               </h3>
               <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed">
-                Cada linha de código, cada pixel desenhado, cada pergunta do teste foi pensada 
-                com carinho para você. Acreditamos que todos têm um propósito único, e nossa 
-                missão é ajudar você a descobrir o seu. Obrigado por fazer parte desta jornada conosco! ❤️
+                Muito obrigado por tudo ai galerinha do grupo alice, dourado, paulo e renato voçês são demais ❤️
               </p>
             </div>
           </motion.div>

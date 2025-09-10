@@ -147,7 +147,7 @@ const Team: React.FC = () => {
               </div>
 
               {/* Banner da equipe */}
-              <div className="relative h-80 md:h-80 rounded-2xl overflow-hidden">
+              <div className="relative h-100 md:h-80 rounded-2xl overflow-hidden">
                 {/* Imagem de fundo estilo banner */}
                 <div className="absolute inset-0 bg-gradient-to-r from-red-600/20 via-purple-600/20 to-yellow-500/20"></div>
                 <img 

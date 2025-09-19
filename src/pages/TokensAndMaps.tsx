@@ -238,9 +238,9 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'adv-2',
-          name: 'Juiz',
-          description: 'Magistrado presidindo audiência',
-          imagePath: '/src/assets/juiz.png',
+          name: 'Juiza',
+          description: 'Magistrada presidindo audiência',
+          imagePath: 'https://images.pexels.com/photos/33964120/pexels-photo-33964120.png?_gl=1*5k4u7l*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTgyODk2ODQkbzE4JGcxJHQxNzU4Mjg5NzI0JGoyMCRsMCRoMA..',
         },
         {
           id: 'adv-3',
@@ -290,7 +290,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'adm-2',
           name: 'Analista Financeiro',
           description: 'Profissional analisando dados financeiros',
-          imagePath: '/src/assets/analista_financeiro.png',
+          imagePath: 'https://images.pexels.com/photos/33964119/pexels-photo-33964119.png?_gl=1*1y9814s*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTgyODk2ODQkbzE4JGcxJHQxNzU4Mjg5Nzc4JGo1OSRsMCRoMA..',
         },
         {
           id: 'adm-3',

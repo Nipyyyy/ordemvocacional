@@ -253,7 +253,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'art-2',
           name: 'Pintor(a)',
           description: 'Artista criando ilustrações digitais',
-          imagePath: '/src/assets/ilustrador.png',
+          imagePath: 'https://images.pexels.com/photos/34026382/pexels-photo-34026382.png',
         },
         {
           id: 'art-3',

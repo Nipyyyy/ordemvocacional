@@ -35,7 +35,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Posto de Saúde',
       description:
         'Mapa detalhado de um hospital com salas de emergência, consultórios e atendimento.',
-      imagePath: '/src/assets/HOSPITAL SUS.jpg',
       imagePath: 'https://images.pexels.com/photos/33444068/pexels-photo-33444068.png',
       details:
         'Este mapa inclui: Recepção principal, Salas de emergência, Consultórios médicos, Centro cirúrgico, UTI, Farmácia interna, Laboratórios, Salas de espera e Corredores de acesso.',
@@ -45,7 +44,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Empresa TI',
       description:
         'Ambiente corporativo com salas de reunião, escritórios e áreas comuns.',
-      imagePath: '/src/assets/ESCRITORIO TI.png',
       imagePath: 'https://images.pexels.com/photos/33444067/pexels-photo-33444067.png?_gl=1*8hkknd*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNzk2MTYkbzckZzEkdDE3NTUxODA5NTYkajU5JGwwJGgw',
       details:
         'Este mapa inclui: Recepção corporativa, Escritórios individuais, Salas de reunião, Open space, Sala de diretoria, Copa/cozinha, Banheiros e Área de descanso.',
@@ -55,7 +53,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Escola Publica',
       description:
         'Ambiente escolar completo com salas de aula, laboratórios e biblioteca.',
-      imagePath: '/src/assets/school_map.png',
       imagePath: 'https://images.pexels.com/photos/33444069/pexels-photo-33444069.png',
       details:
         'Este mapa inclui: Salas de aula, Biblioteca, Laboratório de ciências, Laboratório de informática, Quadra esportiva, Pátio, Cantina, Diretoria e Sala dos professores.',
@@ -65,7 +62,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Sala de Jornalismo',
       description:
         'Um mapa que conduz o visitante pelos bastidores do jornalismo, mostrando redações, estúdios e áreas onde as histórias ganham vida.',
-      imagePath: '/src/assets/courthouse_map.png',
       imagePath: 'https://images.pexels.com/photos/33444072/pexels-photo-33444072.png?_gl=1*12dp8bu*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNzk2MTYkbzckZzEkdDE3NTUxODExMTUkajU2JGwwJGgw',
       details:
         'Este mapa inclui: "Mesas com computadores, câmeras, microfones e um quadro de pautas repleto de notícias."',
@@ -75,7 +71,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Zoológico',
       description:
         'Um mapa colorido que guia os visitantes pelas trilhas e recintos do zoológico, revelando cada área cheia de vida e descoberta',
-      imagePath: '/src/assets/laboratory_map.png',
       imagePath: 'https://images.pexels.com/photos/33444071/pexels-photo-33444071.png?_gl=1*139j44p*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNzk2MTYkbzckZzEkdDE3NTUxODEyMzUkajUxJGwwJGgw',
       details:
         'Este mapa inclui: Area de animais, utensilios, area de hidratação.',
@@ -84,7 +79,6 @@ const TokensAndMaps: React.FC = () => {
       id: 'newsroom',
       name: 'Redação de Jornal',
       description: 'Ambiente de redação com estúdio de TV e rádio.',
-      imagePath: '/src/assets/newsroom_map.png',
       imagePath: '',
       details:
         'Este mapa inclui: Redação principal, Estúdio de TV, Estúdio de rádio, Sala de edição, Arquivo, Sala de reuniões, Recepção e Área técnica.',
@@ -94,7 +88,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Agência de Publicidade',
       description:
         'Escritório criativo com salas de brainstorm e estúdio de produção.',
-      imagePath: '/src/assets/advertising_agency_map.png',
       imagePath: 'https://images.pexels.com/photos/33444070/pexels-photo-33444070.png',
       details:
         'Este mapa inclui: Área criativa, Salas de brainstorm, Estúdio de produção, Sala de apresentação, Atendimento, Diretoria, Copa e Área de descanso.',
@@ -103,7 +96,6 @@ const TokensAndMaps: React.FC = () => {
       id: 'art_studio',
       name: 'Estúdio de Arte',
       description: '',
-      imagePath: '/src/assets/art_studio_map.png',
       imagePath: '',
       details:
         'Este mapa inclui: Ateliês de pintura, Sala de escultura, Área de design digital, Galeria de exposição, Depósito de materiais, Sala de aula e Recepção.',
@@ -113,7 +105,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Estúdio de Cinema',
       description:
         'Complexo de produção audiovisual com sets e salas de edição.',
-      imagePath: '/src/assets/film_studio_map.png',
       imagePath: '',
       details:
         'Este mapa inclui: Sets de filmagem, Salas de edição, Estúdio de som, Camarins, Depósito de equipamentos, Sala de produção, Recepção e Área técnica.',
@@ -122,7 +113,6 @@ const TokensAndMaps: React.FC = () => {
       id: 'zoo',
       name: 'Centro de Pesquisa',
       description: 'Complexo zoológico com áreas de pesquisa e conservação.',
-      imagePath: '/src/assets/zoo_map.png',
       imagePath: '',
       details:
         'Este mapa inclui: Recintos dos animais, Laboratório veterinário, Centro de pesquisa, Berçário, Quarentena, Clínica veterinária, Administração e Área educativa.',
@@ -132,7 +122,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Estudio Audiovisual',
       description:
         'Centro de edicao audiovisual.',
-      imagePath: '/src/assets/social_center_map.png',
       imagePath: '',
       details:
         'Este mapa inclui: Salas de atendimento, Auditório, Salas de atividades, Cozinha comunitária, Brinquedoteca, Biblioteca, Administração e Recepção.',
@@ -142,7 +131,6 @@ const TokensAndMaps: React.FC = () => {
       name: 'Julgamento',
       description:
         'Escritório moderno de tecnologia com laboratórios e salas de desenvolvimento.',
-      imagePath: '/src/assets/tech_company_map.png',
       imagePath: '',
       details:
         'Este mapa inclui: ',
@@ -163,7 +151,7 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'medico-2',
-          name: 'Médico Emergencista',
+          name: 'Médico de Emergência',
           description: 'Médico com máscara e prancheta em situação de emergência',
           imagePath: 'https://images.pexels.com/photos/33414748/pexels-photo-33414748.png?_gl=1*9y6ye2*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTQ5OTc5MjMkbzQkZzEkdDE3NTQ5OTk1NzkkajU4JGwwJGgw',
         },
@@ -232,9 +220,9 @@ const TokensAndMaps: React.FC = () => {
       tokens: [
         {
           id: 'adv-1',
-          name: 'Advogado Criminalista',
+          name: 'Advogado',
           description: 'Advogado especializado em direito criminal',
-          imagePath: '/src/assets/advogado_criminalista.png',
+          imagePath: 'https://images.pexels.com/photos/34026378/pexels-photo-34026378.png',
         },
         {
           id: 'adv-2',
@@ -246,7 +234,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'adv-3',
           name: 'Promotor',
           description: 'Promotor de justiça em tribunal',
-          imagePath: '/src/assets/promotor.png',
+          imagePath: 'https://images.pexels.com/photos/34026379/pexels-photo-34026379.png',
         },
       ],
     },
@@ -259,19 +247,19 @@ const TokensAndMaps: React.FC = () => {
           id: 'art-1',
           name: 'Designer Gráfico',
           description: 'Designer criando identidade visual',
-          imagePath: '/src/assets/designer_grafico.png',
+          imagePath: 'https://images.pexels.com/photos/34026381/pexels-photo-34026381.png',
         },
         {
           id: 'art-2',
-          name: 'Ilustrador',
+          name: 'Pintor(a)',
           description: 'Artista criando ilustrações digitais',
           imagePath: '/src/assets/ilustrador.png',
         },
         {
           id: 'art-3',
-          name: 'Designer UX/UI',
+          name: 'Designer de Moda',
           description: 'Designer criando interfaces de usuário',
-          imagePath: '/src/assets/designer_ux_ui.png',
+          imagePath: 'https://images.pexels.com/photos/34026380/pexels-photo-34026380.png',
         },
       ],
     },
@@ -319,7 +307,7 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'jorn-3',
-          name: 'Editor de Conteúdo',
+          name: 'Cameraman ',
           description: 'Profissional editando matérias jornalísticas',
           imagePath: '/src/assets/editor_conteudo.png',
         },
@@ -332,19 +320,19 @@ const TokensAndMaps: React.FC = () => {
       tokens: [
         {
           id: 'pub-1',
-          name: 'Redator Publicitário',
+          name: 'Analista de marketing',
           description: 'Profissional criando textos publicitários',
           imagePath: '/src/assets/redator_publicitario.png',
         },
         {
           id: 'pub-2',
-          name: 'Diretor Criativo',
+          name: 'VideoMaker',
           description: 'Profissional dirigindo campanhas publicitárias',
           imagePath: '/src/assets/diretor_criativo.png',
         },
         {
           id: 'pub-3',
-          name: 'Social Media Manager',
+          name: 'Influenciadora',
           description: 'Especialista em redes sociais',
           imagePath: '/src/assets/social_media_manager.png',
         },
@@ -363,13 +351,13 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'cin-2',
-          name: 'Cinegrafista',
+          name: 'Ator',
           description: 'Profissional operando câmera de cinema',
           imagePath: '/src/assets/cinegrafista.png',
         },
         {
           id: 'cin-3',
-          name: 'Editor de Vídeo',
+          name: 'Atriz',
           description: 'Profissional editando material audiovisual',
           imagePath: '/src/assets/editor_video.png',
         },
@@ -382,7 +370,7 @@ const TokensAndMaps: React.FC = () => {
       tokens: [
         {
           id: 'zoo-1',
-          name: 'Zoólogo de Campo',
+          name: 'Bióloga Terrestre',
           description: 'Pesquisador estudando animais na natureza',
           imagePath: '/src/assets/zoologo_campo.png',
         },
@@ -394,7 +382,7 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'zoo-3',
-          name: 'Conservacionista',
+          name: 'Guia',
           description: 'Profissional trabalhando na preservação animal',
           imagePath: '/src/assets/conservacionista.png',
         },
@@ -419,7 +407,7 @@ const TokensAndMaps: React.FC = () => {
         },
         {
           id: 'ass-3',
-          name: 'Educador Social',
+          name: 'Educadora Social',
           description: 'Profissional trabalhando com educação social',
           imagePath: '/src/assets/educador_social.png',
         },

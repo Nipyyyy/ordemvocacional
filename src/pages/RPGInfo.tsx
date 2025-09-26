@@ -121,7 +121,7 @@ const RPGInfo: React.FC = () => {
                           <img 
                             src="https://images.pexels.com/photos/34052137/pexels-photo-34052137.png"
                             alt="Capa do Livro de Regras - Ordem Vocacional"
-                            className="w-full h-auto aspect-[3/4] object-cover"
+                            className="w-full h-auto aspect-[2/4] object-cover"
                           />
                           
                           {/* Overlay com efeito hover */}

@@ -119,7 +119,7 @@ const RPGInfo: React.FC = () => {
                         <div className="relative overflow-hidden rounded-lg shadow-2xl border-2 border-accent-gold/30 hover:border-accent-gold transition-all duration-300 group-hover:scale-105">
                           {/* Placeholder para a capa do livro - você pode substituir esta URL */}
                           <img 
-                            src="https://images.pexels.com/photos/33431745/pexels-photo-33431745.png?_gl=1*7tq35s*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUwOTU0NzgkbzUkZzEkdDE3NTUwOTYzMjAkajQ2JGwwJGgw"
+                            src="src/assets/Poster.jpeg"
                             alt="Capa do Livro de Regras - Ordem Vocacional"
                             className="w-full h-auto aspect-[3/4] object-cover"
                           />

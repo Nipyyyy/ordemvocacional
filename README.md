@@ -10,16 +10,6 @@ Um teste vocacional interativo que combina elementos de RPG para descobrir sua v
 - **Design Responsivo**: Funciona perfeitamente em desktop e mobile
 - **Interface Moderna**: Design elegante com animações suaves
 
-## 🚀 Como executar
-
-### Pré-requisitos
-- Node.js 18+ 
-- npm ou yarn
-
-### Build para produção
-```bash
-npm run build
-```
 
 ## 🎮 Sobre o Projeto
 
@@ -55,18 +45,6 @@ O site é totalmente responsivo e funciona em:
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT SENAC
+. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fazer fork do projeto
-2. Criar uma branch para sua feature
-3. Commit suas mudanças
-4. Push para a branch
-5. Abrir um Pull Request
-
----
-
-**Desenvolvido com ❤️ para ajudar pessoas a descobrirem sua vocação!**

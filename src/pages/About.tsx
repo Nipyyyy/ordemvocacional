@@ -92,7 +92,7 @@ const About: React.FC = () => {
                     className="text-accent-gold mt-1 flex-shrink-0"
                   />
                   <span className="text-gray-300">
-                    Avaliação psicométrica fundamentada em pesquisa
+                    Avaliação psicologica fundamentada em pesquisa
                   </span>
                 </li>
                 <li className="flex items-start space-x-3">

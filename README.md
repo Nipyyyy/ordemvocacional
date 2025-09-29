@@ -38,9 +38,9 @@ O site é totalmente responsivo e funciona em:
 
 ## 🎨 Design
 
-- **Tema**: Fantasia medieval com cores escuras
+- **Tema**: Modernidade com Roxo e Gradiente
 - **Tipografia**: Cinzel (títulos) + Poppins (texto)
-- **Cores**: Azul escuro, roxo e dourado
+- **Cores**: Azul escuro, roxo e branco
 - **Animações**: Transições suaves e micro-interações
 
 ## 📄 Licença

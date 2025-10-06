@@ -76,14 +76,6 @@ const TokensAndMaps: React.FC = () => {
         'Este mapa inclui: Area de animais, utensilios, area de hidratação.',
     },
     {
-      id: 'newsroom',
-      name: 'Redação de Jornal',
-      description: 'Ambiente de redação com estúdio de TV e rádio.',
-      imagePath: '',
-      details:
-        'Este mapa inclui: Redação principal, Estúdio de TV, Estúdio de rádio, Sala de edição, Arquivo, Sala de reuniões, Recepção e Área técnica.',
-    },
-    {
       id: 'advertising_agency',
       name: 'Agência de Publicidade',
       description:
@@ -108,14 +100,6 @@ const TokensAndMaps: React.FC = () => {
       imagePath: '',
       details:
         'Este mapa inclui: Sets de filmagem, Salas de edição, Estúdio de som, Camarins, Depósito de equipamentos, Sala de produção, Recepção e Área técnica.',
-    },
-    {
-      id: 'zoo',
-      name: 'Centro de Pesquisa',
-      description: 'Complexo zoológico com áreas de pesquisa e conservação.',
-      imagePath: '',
-      details:
-        'Este mapa inclui: Recintos dos animais, Laboratório veterinário, Centro de pesquisa, Berçário, Quarentena, Clínica veterinária, Administração e Área educativa.',
     },
     {
       id: 'social_center',
@@ -385,31 +369,6 @@ const TokensAndMaps: React.FC = () => {
           name: 'Guia',
           description: 'Profissional trabalhando na preservação animal',
           imagePath: '/src/assets/conservacionista.png',
-        },
-      ],
-    },
-    {
-      id: 'assistente',
-      name: 'Assistência Social',
-      description: 'Tokens relacionados ao trabalho social',
-      tokens: [
-        {
-          id: 'ass-1',
-          name: 'Assistente Social',
-          description: 'Profissional atendendo famílias em vulnerabilidade',
-          imagePath: '/src/assets/assistente_social.png',
-        },
-        {
-          id: 'ass-2',
-          name: 'Conselheiro Tutelar',
-          description: 'Profissional protegendo direitos de crianças',
-          imagePath: '/src/assets/conselheiro_tutelar.png',
-        },
-        {
-          id: 'ass-3',
-          name: 'Educadora Social',
-          description: 'Profissional trabalhando com educação social',
-          imagePath: '/src/assets/educador_social.png',
         },
       ],
     },

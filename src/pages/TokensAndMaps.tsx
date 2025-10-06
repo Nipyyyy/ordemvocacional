@@ -281,13 +281,13 @@ const TokensAndMaps: React.FC = () => {
           id: 'jorn-1',
           name: 'Repórter de Campo',
           description: 'Jornalista fazendo cobertura externa',
-          imagePath: '/src/assets/reporter_campo.png',
+          imagePath: 'https://images.pexels.com/photos/34055119/pexels-photo-34055119.png',
         },
         {
           id: 'jorn-2',
           name: 'Apresentador de TV',
           description: 'Jornalista apresentando telejornal',
-          imagePath: '/src/assets/apresentador_tv.png',
+          imagePath: 'https://images.pexels.com/photos/34055118/pexels-photo-34055118.png?_gl=1*4tli4r*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTg5MTg1NDMkbzI0JGcxJHQxNzU4OTIwMTkyJGo0MiRsMCRoMA..',
         },
         {
           id: 'jorn-3',

@@ -312,7 +312,7 @@ const TokensAndMaps: React.FC = () => {
           id: 'pub-2',
           name: 'VideoMaker',
           description: 'Profissional dirigindo campanhas publicitárias',
-          imagePath: 'https://images.pexels.com/photos/34188537/pexels-photo-34188537.png',
+          imagePath: 'https://images.pexels.com/photos/34188564/pexels-photo-34188564.png',
         },
         {
           id: 'pub-3',

@@ -132,8 +132,8 @@ const CharacterCreationForm: React.FC<CharacterCreationFormProps> = ({ onCharact
             value={formData.age}
             onChange={handleChange}
             required
-            min="16"
-            max="100"
+            min="5"
+            max="110"
             className="w-full px-4 py-3 bg-dark-blue/50 border border-light-purple/30 rounded-lg text-white placeholder-gray-400 focus:border-accent-gold focus:outline-none transition-colors"
             placeholder="Ex: 25"
           />

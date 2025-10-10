@@ -97,7 +97,7 @@ const TokensAndMaps: React.FC = () => {
       name: 'Estúdio de Cinema',
       description:
         'Complexo de produção audiovisual com sets e salas de edição.',
-      imagePath: '',
+      imagePath: 'https://images.pexels.com/photos/34244468/pexels-photo-34244468.png?_gl=1*krs4ko*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAxMDI3MjUkbzI3JGcxJHQxNzYwMTAzOTMyJGo1NiRsMCRoMA..',
       details:
         'Este mapa inclui: Sets de filmagem, Salas de edição, Estúdio de som, Camarins, Depósito de equipamentos, Sala de produção, Recepção e Área técnica.',
     },

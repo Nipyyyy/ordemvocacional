@@ -103,12 +103,12 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'social_center',
-      name: 'Estudio Audiovisual',
+      name: 'Escritorio de Administração',
       description:
-        'Centro de edicao audiovisual.',
-      imagePath: '',
+        'Escritório de administração com salas de reunioes e atividades.',
+      imagePath: 'https://images.pexels.com/photos/34244268/pexels-photo-34244268.png',
       details:
-        'Este mapa inclui: Salas de atendimento, Auditório, Salas de atividades, Cozinha comunitária, Brinquedoteca, Biblioteca, Administração e Recepção.',
+        'Este mapa inclui: Recepção corporativa, Escritórios individuais, Salas de reunião, Open space, Sala de diretoria, Copa/cozinha, Banheiros e Área de descanso.',
     },
     {
       id: 'tech_company',

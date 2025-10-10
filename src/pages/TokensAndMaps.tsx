@@ -106,7 +106,7 @@ const TokensAndMaps: React.FC = () => {
       name: 'Escritorio de Administração',
       description:
         'Escritório de administração com salas de reunioes e atividades.',
-      imagePath: 'https://images.pexels.com/photos/34244268/pexels-photo-34244268.png',
+      imagePath: 'https://images.pexels.com/photos/34244968/pexels-photo-34244968.png?_gl=1*1u3ba0m*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAxMDYwMDMkbzI4JGcxJHQxNzYwMTA2MjY1JGo1OSRsMCRoMA..',
       details:
         'Este mapa inclui: Recepção corporativa, Escritórios individuais, Salas de reunião, Open space, Sala de diretoria, Copa/cozinha, Banheiros e Área de descanso.',
     },

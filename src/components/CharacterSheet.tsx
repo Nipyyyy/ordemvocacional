@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { User, Briefcase, FileText, Image, Download, ArrowLeft, Dices } from 'lucide-react';
-import Spline from '@splinetool/react-spline';
 import { Character } from './CharacterCreationForm';
 
 interface CharacterSheetProps {
@@ -10,10 +9,22 @@ interface CharacterSheetProps {
 }
 
 const CharacterSheet: React.FC<CharacterSheetProps> = ({ character, onBack }) => {
-  const [showDice, setShowDice] = useState(false);
+  const [diceResult, setDiceResult] = useState<number | null>(null);
+  const [isRolling, setIsRolling] = useState(false);
 
   const handlePrint = () => {
     window.print();
+  };
+
+  const rollDice = () => {
+    setIsRolling(true);
+    setDiceResult(null);
+
+    setTimeout(() => {
+      const result = Math.floor(Math.random() * 6) + 1;
+      setDiceResult(result);
+      setIsRolling(false);
+    }, 600);
   };
 
   return (
@@ -125,28 +136,51 @@ const CharacterSheet: React.FC<CharacterSheetProps> = ({ character, onBack }) =>
                 <Dices size={20} className="mr-2 text-accent-gold" />
                 Rolagem de Dado D6
               </h3>
-              <div className="bg-dark-purple/30 rounded-lg p-4 border border-light-purple/20">
-                {!showDice ? (
+              <div className="bg-accent-purple/10 p-4 rounded-lg border border-dark-blue/30">
+                <div className="flex flex-col items-center">
+                  <motion.div
+                    animate={isRolling ? { rotate: 360 } : {}}
+                    transition={{ duration: 0.6, ease: "easeInOut" }}
+                    className="mb-4"
+                  >
+                    <div className="bg-white rounded-lg shadow-2xl p-6 border-4 border-accent-gold">
+                      <Dices
+                        size={48}
+                        className={`${isRolling ? 'text-gray-400' : 'text-dark-blue'}`}
+                      />
+                    </div>
+                  </motion.div>
+
+                  {diceResult && !isRolling && (
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      className="mb-4"
+                    >
+                      <div className={`text-5xl font-bold ${
+                        diceResult >= 4 ? 'text-green-400' : 'text-red-400'
+                      }`}>
+                        {diceResult}
+                      </div>
+                      <div className="text-center mt-2">
+                        <span className={`text-sm font-medium ${
+                          diceResult >= 4 ? 'text-green-400' : 'text-red-400'
+                        }`}>
+                          {diceResult >= 4 ? 'Sucesso!' : 'Falha!'}
+                        </span>
+                      </div>
+                    </motion.div>
+                  )}
+
                   <button
-                    onClick={() => setShowDice(true)}
-                    className="w-full btn-primary py-3 flex items-center justify-center"
+                    onClick={rollDice}
+                    disabled={isRolling}
+                    className="btn-primary inline-flex items-center disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <Dices size={18} className="mr-2" />
-                    Rolar Dado
+                    {isRolling ? 'Rolando...' : 'Rolar Dado'}
                   </button>
-                ) : (
-                  <div className="space-y-4">
-                    <div className="w-full h-64 rounded-lg overflow-hidden bg-dark-blue/50 border border-light-purple/20">
-                      <Spline scene="https://prod.spline.design/iIJV60DungLUtFLU/scene.splinecode" />
-                    </div>
-                    <button
-                      onClick={() => setShowDice(false)}
-                      className="w-full btn-secondary py-2 text-sm"
-                    >
-                      Fechar Dado
-                    </button>
-                  </div>
-                )}
+                </div>
               </div>
             </div>
 

@@ -136,7 +136,7 @@ const CharacterSheet: React.FC<CharacterSheetProps> = ({ character, onBack }) =>
                 <Dices size={20} className="mr-2 text-accent-gold" />
                 Rolagem de Dado D6
               </h3>
-              <div className="bg-accent-purple/10 p-4 rounded-lg border border-dark-blue/30">
+              <div className="bg-dark-blue/10 p-4 rounded-lg border border-dark-blue/30">
                 <div className="flex flex-col items-center">
                   <motion.div
                     animate={isRolling ? { rotate: 360 } : {}}

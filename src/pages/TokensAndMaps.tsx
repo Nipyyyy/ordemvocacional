@@ -87,8 +87,8 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'art_studio',
       name: 'Estúdio de Arte',
-      description: '',
-      imagePath: '',
+      description: 'Estúdio de arte com espaços para pintura, escultura e design.',
+      imagePath: 'https://images.pexels.com/photos/34282804/pexels-photo-34282804.png?_gl=1*1p5jt5d*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTM1NTMkbzMxJGcxJHQxNzYwMzUzNzE5JGo1MSRsMCRoMA..',
       details:
         'Este mapa inclui: Ateliês de pintura, Sala de escultura, Área de design digital, Galeria de exposição, Depósito de materiais, Sala de aula e Recepção.',
     },
@@ -112,12 +112,12 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'tech_company',
-      name: 'Julgamento',
+      name: 'Tribunal',
       description:
-        'Escritório moderno de tecnologia com laboratórios e salas de desenvolvimento.',
-      imagePath: '',
+        'Ambiente formal com salas de audiência, escritórios e áreas de espera.',
+      imagePath: 'https://images.pexels.com/photos/34282805/pexels-photo-34282805.png?_gl=1*11rcw6t*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTM1NTMkbzMxJGcxJHQxNzYwMzUzNzczJGo1OSRsMCRoMA..',
       details:
-        'Este mapa inclui: ',
+        'Este mapa inclui: Salas de audiência, Gabinetes de juízes, Escritórios de advogados, Sala de testemunhas, Área de espera, Recepção e Segurança.',
     },
   ];
 

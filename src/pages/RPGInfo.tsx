@@ -717,11 +717,11 @@ const RPGInfo: React.FC = () => {
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
                         <h3 className="text-xl font-cinzel font-semibold text-white mb-2">
-                          Tela do Mestre
+                          Escudo do Mestre
                         </h3>
                         <p className="text-gray-300 text-sm mb-4">
-                          Painel de referência rápida com tabelas, modificadores e informações essenciais
-                          para o Mestre conduzir a sessão com fluidez.
+                          Painel de referência rápida com tabelas, profissões e informações essenciais
+                          para o Mestre conduzir a sessão com facilidade.
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">PDF</span>
@@ -735,40 +735,6 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h3 className="text-xl font-cinzel font-semibold text-white mb-2">
-                          Aventuras Prontas
-                        </h3>
-                        <p className="text-gray-300 text-sm mb-4">
-                          Pacote com 5 aventuras completas, cada uma focada em uma profissão diferente.
-                          Inclui NPCs, dilemas e resoluções alternativas.
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                          <span className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">PDF</span>
-                          <span className="text-xs bg-red-500/20 text-red-400 px-3 py-1 rounded-full">Premium</span>
-                        </div>
-                      </div>
-                      <button className="ml-4 btn-primary inline-flex items-center whitespace-nowrap">
-                        <Download size={16} className="mr-2" />
-                        Baixar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-8 bg-dark-blue/50 p-6 rounded-lg border border-accent-gold/30">
-                  <div className="flex items-center mb-4">
-                    <div className="w-3 h-3 bg-accent-gold rounded-full mr-3 animate-pulse"></div>
-                    <h3 className="text-lg font-cinzel font-semibold text-accent-gold">
-                      Materiais em Desenvolvimento
-                    </h3>
-                  </div>
-                  <p className="text-gray-300 text-sm">
-                    Os downloads marcados acima estão sendo preparados e serão disponibilizados em breve.
-                    O Livro de Regras já está disponível para acesso imediato. Fique atento para as próximas atualizações!
-                  </p>
                 </div>
               </div>
             )}

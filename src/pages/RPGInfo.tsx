@@ -635,10 +635,15 @@ const RPGInfo: React.FC = () => {
                           <span className="text-xs bg-green-500/20 text-green-400 px-3 py-1 rounded-full">Editável</span>
                         </div>
                       </div>
-                      <button className="ml-4 btn-primary inline-flex items-center whitespace-nowrap">
+                      <a
+                        href="https://drive.google.com/drive/folders/1IuRhjHpFXapMD58rVqLMmsepHstAKBam"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-4 btn-primary inline-flex items-center whitespace-nowrap"
+                      >
                         <Download size={16} className="mr-2" />
                         Baixar
-                      </button>
+                      </a>
                     </div>
                   </div>
 
@@ -654,11 +659,11 @@ const RPGInfo: React.FC = () => {
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">PDF</span>
-                          <span className="text-xs bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full">80 páginas</span>
+                          <span className="text-xs bg-yellow-500/20 text-yellow-400 px-3 py-1 rounded-full">15 páginas</span>
                         </div>
                       </div>
                       <a
-                        href={rulesBookPdfUrl}
+                        href="https://drive.google.com/drive/folders/1tux34v-f4SNZTpE6jTvcA-LIIGhyj40q"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="ml-4 btn-primary inline-flex items-center whitespace-nowrap"
@@ -684,10 +689,15 @@ const RPGInfo: React.FC = () => {
                           <span className="text-xs bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full">Alta Resolução</span>
                         </div>
                       </div>
-                      <button className="ml-4 btn-primary inline-flex items-center whitespace-nowrap">
+                      <a
+                        href="https://drive.google.com/drive/folders/1-nldJUU9DfGFFP6PHAgofZ5dexgaQr2I"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-4 btn-primary inline-flex items-center whitespace-nowrap"
+                      >
                         <Download size={16} className="mr-2" />
                         Baixar
-                      </button>
+                      </a>
                     </div>
                   </div>
 
@@ -703,13 +713,18 @@ const RPGInfo: React.FC = () => {
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span className="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">PDF</span>
-                          <span className="text-xs bg-green-500/20 text-green-400 px-3 py-1 rounded-full">15 mapas</span>
+                          <span className="text-xs bg-green-500/20 text-green-400 px-3 py-1 rounded-full">10 mapas</span>
                         </div>
                       </div>
-                      <button className="ml-4 btn-primary inline-flex items-center whitespace-nowrap">
+                      <a
+                        href="https://drive.google.com/drive/folders/1vK_901nnjIeOawX3xMDc7Nf1UqWVoUHB"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-4 btn-primary inline-flex items-center whitespace-nowrap"
+                      >
                         <Download size={16} className="mr-2" />
                         Baixar
-                      </button>
+                      </a>
                     </div>
                   </div>
 
@@ -728,10 +743,15 @@ const RPGInfo: React.FC = () => {
                           <span className="text-xs bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full">4 painéis</span>
                         </div>
                       </div>
-                      <button className="ml-4 btn-primary inline-flex items-center whitespace-nowrap">
+                      <a
+                        href="https://drive.google.com/drive/folders/1PmqdG92qWuQHymscmWJMRlJXVfyad7BF"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-4 btn-primary inline-flex items-center whitespace-nowrap"
+                      >
                         <Download size={16} className="mr-2" />
                         Baixar
-                      </button>
+                      </a>
                     </div>
                   </div>
 

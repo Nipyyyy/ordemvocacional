@@ -378,7 +378,7 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'paciente-1',
       name: 'Paciente Machucado',
-      description: 'Paciente jovem depois de sofrer um acidente',
+      description: 'Paciente jovem depois de sofrer um acidente todo machucado',
       imagePath: 'https://images.pexels.com/photos/33442216/pexels-photo-33442216.png?_gl=1*sspd6w*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNjkwNTEkbzYkZzEkdDE3NTUxNjk5NTMkajIwJGwwJGgw',
     },
     {
@@ -396,31 +396,31 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'vitima-1',
       name: 'Pessoa sendo julgada',
-      description: 'Acusado em um tribunal',
+      description: 'Cliente acusado em um tribunal',
       imagePath: 'https://images.pexels.com/photos/34026378/pexels-photo-34026378.png',
     },
     {
       id: 'idosa-geral',
-      name: 'Idosa',
-      description: 'Idosa sem paciencia',
+      name: 'Senhora Idosa irritada',
+      description: 'Idosa sem paciencia brigando com alguem',
       imagePath: 'https://images.pexels.com/photos/34282218/pexels-photo-34282218.png?_gl=1*1pa8qqj*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwODIxJGo1OSRsMCRoMA..',
     },
     {
       id: 'aluno-1',
       name: 'Aluno Curioso',
-      description: 'Estudante fazendo perguntas',
+      description: 'Estudante fazendo perguntas e tirando duvida',
       imagePath: 'https://images.pexels.com/photos/34282226/pexels-photo-34282226.png?_gl=1*mxmh3r*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwMzg2JGoyMSRsMCRoMA..',
     },
     {
       id: 'aluna-1',
       name: 'Aluna com duvida',
       description: 'Estudante levantando a mão para tirar dúvida',
-      imagePath: 'https://images.pexels.com/photos/34282226/pexels-photo-34282226.png?_gl=1*mxmh3r*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwMzg2JGoyMSRsMCRoMA..',
+      imagePath: 'https://images.pexels.com/photos/34282223/pexels-photo-34282223.png?_gl=1*1jdf6rc*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDAzJGo0JGwwJGgw',
     },
     {
       id: 'aluno-2',
-      name: 'Aluno Autista',
-      description: 'Estudante com autismo',
+      name: 'Aluno com Autista',
+      description: 'Estudante com autismo curioso em algo',
       imagePath: 'https://images.pexels.com/photos/34282221/pexels-photo-34282221.png?_gl=1*19dzhll*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDMzJGo1OSRsMCRoMA..',
     },
     {

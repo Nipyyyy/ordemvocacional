@@ -132,8 +132,8 @@ const CharacterCreationForm: React.FC<CharacterCreationFormProps> = ({ onCharact
             value={formData.age}
             onChange={handleChange}
             required
-            min="5"
-            max="110"
+            min="16"
+            max="100"
             className="w-full px-4 py-3 bg-dark-blue/50 border border-light-purple/30 rounded-lg text-white placeholder-gray-400 focus:border-accent-gold focus:outline-none transition-colors"
             placeholder="Ex: 25"
           />
@@ -149,11 +149,11 @@ const CharacterCreationForm: React.FC<CharacterCreationFormProps> = ({ onCharact
             value={formData.profession}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 bg-dark-blue/50 border border-light-purple/30 rounded-lg text-white focus:border-accent-gold focus:outline-none transition-colors"
+            className="w-full px-4 py-3 bg-dark-blue/50 border border-light-purple/30 rounded-lg text-white focus:border-accent-gold focus:outline-none transition-colors [&>option]:bg-dark-blue [&>option]:text-white"
           >
-            <option value="">Selecione uma profissão</option>
+            <option value="" className="bg-dark-blue text-gray-400">Selecione uma profissão</option>
             {professionCategories.map((category) => (
-              <option key={category.id} value={category.name}>
+              <option key={category.id} value={category.name} className="bg-dark-blue text-white">
                 {category.name}
               </option>
             ))}

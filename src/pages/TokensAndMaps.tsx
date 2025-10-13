@@ -545,16 +545,10 @@ const TokensAndMaps: React.FC = () => {
                               <p className="text-gray-300 text-sm mb-4">
                                 {token.description}
                               </p>
-                              <div className="flex space-x-2">
-                                <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                                  <Eye size={14} className="mr-1" />
-                                  Ver
-                                </button>
-                                <button className="flex-1 bg-dark-blue/50 hover:bg-dark-blue text-white text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                                  <Download size={14} className="mr-1" />
-                                  Baixar
-                                </button>
-                              </div>
+                              <button className="w-full bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
+                                <Eye size={14} className="mr-1" />
+                                Ver
+                              </button>
                             </motion.div>
                           ))}
                         </div>
@@ -598,16 +592,10 @@ const TokensAndMaps: React.FC = () => {
                     <p className="text-gray-300 text-sm mb-4 flex-grow">
                       {token.description}
                     </p>
-                    <div className="flex space-x-2 mt-auto">
-                      <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                        <Eye size={14} className="mr-1" />
-                        Ver
-                      </button>
-                      <button className="flex-1 bg-dark-blue/50 hover:bg-dark-blue text-white text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                        <Download size={14} className="mr-1" />
-                        Baixar
-                      </button>
-                    </div>
+                    <button className="w-full bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center mt-auto">
+                      <Eye size={14} className="mr-1" />
+                      Ver
+                    </button>
                   </motion.div>
                 ))}
               </div>
@@ -643,19 +631,13 @@ const TokensAndMaps: React.FC = () => {
                     {map.name}
                   </h3>
                   <p className="text-gray-300 mb-4">{map.description}</p>
-                  <div className="flex space-x-3">
-                    <button
-                      onClick={() => openMapModal(map)}
-                      className="btn-primary flex-1 flex items-center justify-center"
-                    >
-                      <Eye size={16} className="mr-2" />
-                      Visualizar
-                    </button>
-                    <button className="btn-secondary flex items-center justify-center px-4">
-                      <Download size={16} className="mr-2" />
-                      Baixar
-                    </button>
-                  </div>
+                  <button
+                    onClick={() => openMapModal(map)}
+                    className="btn-primary w-full flex items-center justify-center"
+                  >
+                    <Eye size={16} className="mr-2" />
+                    Visualizar
+                  </button>
                 </div>
               ))}
             </div>
@@ -703,14 +685,10 @@ const TokensAndMaps: React.FC = () => {
                 />
               </div>
 
-              <div className="flex space-x-4">
-                <button className="btn-primary flex-1 flex items-center justify-center">
-                  <Download size={18} className="mr-2" />
-                  Baixar Token
-                </button>
+              <div className="flex justify-center">
                 <button
                   onClick={closeTokenModal}
-                  className="btn-secondary flex-1"
+                  className="btn-primary px-8"
                 >
                   Fechar
                 </button>
@@ -772,14 +750,10 @@ const TokensAndMaps: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
-                <button className="btn-primary flex-1 flex items-center justify-center">
-                  <Download size={18} className="mr-2" />
-                  Baixar Mapa em Alta Resolução
-                </button>
+              <div className="flex justify-center">
                 <button
                   onClick={closeMapModal}
-                  className="btn-secondary flex-1"
+                  className="btn-primary px-8"
                 >
                   Fechar
                 </button>

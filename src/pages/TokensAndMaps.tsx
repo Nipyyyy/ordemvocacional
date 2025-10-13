@@ -581,7 +581,7 @@ const TokensAndMaps: React.FC = () => {
                 {npcTokens.map((token) => (
                   <motion.div
                     key={token.id}
-                    className="bg-dark-purple/30 rounded-lg p-4 border border-light-purple/20 hover:border-accent-gold/50 transition-all duration-300 cursor-pointer group"
+                    className="bg-dark-purple/30 rounded-lg p-4 border border-light-purple/20 hover:border-accent-gold/50 transition-all duration-300 cursor-pointer group flex flex-col"
                     whileHover={{ scale: 1.02 }}
                     onClick={() => openTokenModal(token)}
                   >
@@ -595,10 +595,10 @@ const TokensAndMaps: React.FC = () => {
                     <h4 className="text-lg font-cinzel font-semibold text-accent-gold mb-2">
                       {token.name}
                     </h4>
-                    <p className="text-gray-300 text-sm mb-4">
+                    <p className="text-gray-300 text-sm mb-4 flex-grow">
                       {token.description}
                     </p>
-                    <div className="flex space-x-2">
+                    <div className="flex space-x-2 mt-auto">
                       <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
                         <Eye size={14} className="mr-1" />
                         Ver

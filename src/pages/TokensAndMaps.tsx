@@ -426,7 +426,7 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'aluno-2',
       name: 'Aluna com albinismo',
-      description: 'Estudante com albinismo',
+      description: 'Estudante com albinismo observando algo',
       imagePath: 'https://images.pexels.com/photos/34282222/pexels-photo-34282222.png?_gl=1*jemqz7*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDYyJGozMCRsMCRoMA..',
     },
     {

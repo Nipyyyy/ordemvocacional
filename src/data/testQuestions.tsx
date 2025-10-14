@@ -15,7 +15,7 @@ export interface TestOption {
 }
 
 // Áreas profissionais disponíveis
-export type VocationalProfile = 
+export type VocationalProfile =
   | 'informatica'
   | 'medicina'
   | 'zoologia'
@@ -25,8 +25,7 @@ export type VocationalProfile =
   | 'administracao'
   | 'direito'
   | 'cinema'
-  | 'professor'
-  | 'assistente';
+  | 'professor';
 
 export const vocationalProfiles: Record<VocationalProfile, {
   title: string;
@@ -396,141 +395,100 @@ export const vocationalProfiles: Record<VocationalProfile, {
       'Avaliação'
     ],
     imageUrl: 'https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  'assistente': {
-    title: 'Assistência Social',
-    description: 'Você demonstra forte compromisso com o bem-estar social e capacidade de ajudar pessoas. Sua empatia e habilidade em lidar com situações sensíveis são características fundamentais.',
-    careers: [
-      'Assistente Social',
-      'Conselheiro',
-      'Coordenador de Projetos Sociais',
-      'Analista de Políticas Públicas',
-      'Gestor de ONGs',
-      'Mediador Social',
-      'Educador Social',
-      'Especialista em Desenvolvimento Comunitário',
-      'Consultor de Programas Sociais',
-      'Coordenador de Voluntariado'
-    ],
-    strengths: [
-      'Empatia',
-      'Comunicação',
-      'Resolução de conflitos',
-      'Trabalho em equipe',
-      'Sensibilidade social'
-    ],
-    challenges: [
-      'Recursos limitados',
-      'Situações emocionais',
-      'Burocracia',
-      'Demanda crescente'
-    ],
-    skillsToImprove: [
-      'Gestão de projetos',
-      'Políticas públicas',
-      'Tecnologia social',
-      'Captação de recursos'
-    ],
-    imageUrl: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1600'
   }
 };
 
 export const testQuestions: TestQuestion[] = [
   {
     id: 1,
-    question: "Em um projeto em grupo, qual papel você geralmente assume?",
+    question: "Seus amigos te descreveriam como uma pessoa...",
     options: [
       {
         id: "a",
-        text: "Organizando e direcionando o grupo",
-        points: { administracao: 3, direito: 2, professor: 2 }
+        text: "Persuasiva",
+        points: { jornalismo: 3, publicidade: 3 }
       },
       {
         id: "b",
-        text: "Buscando informações sendo fazer pesquisas, buscar noticiais etc",
-        points: { informatica: 3, medicina: 2, zoologia: 2, professor: 1 }
+        text: "Intelectual",
+        points: { informatica: 3, direito: 3 }
       },
       {
         id: "c",
-        text: "Dando ideias e sugestões ",
-        points: { publicidade: 3, artes: 2, cinema: 2 }
+        text: "Cautelosa",
+        points: { zoologia: 3, medicina: 3 }
       },
       {
         id: "d",
-        text: "Tentar sempre se comunica tanto com o grupo quantto em apresentações",
-        points: { direito: 3, administracao: 2, jornalismo: 2 }
+        text: "Realista",
+        points: { administracao: 3 }
       },
       {
         id: "e",
-        text: "Colocando a mão na massa e fazendo realmente as ações",
-        points: { informatica: 3, medicina: 2, assistente: 2 }
+        text: "Sensível",
+        points: { artes: 3, cinema: 3, professor: 3 }
       }
     ]
   },
   {
     id: 2,
-    question: "O emprego ideal é aquele que?",
+    question: "Em um projeto em grupo, qual papel você geralmente assume?",
     options: [
       {
         id: "a",
-        text: "Aprende muito",
-        points: { medicina: 3, direito: 3, jornalismo: 2, professor: 2 }
+        text: "Tentando sempre manter a comunicação entre todos e nas apresentações",
+        points: { publicidade: 3, cinema: 3 }
       },
       {
         id: "b",
-        text: "Contribui com a sociedade",
-        points: { medicina: 3, direito: 2, assistente: 3, professor: 2 }
+        text: "Colocando a mão na massa e fazendo as ações de fato",
+        points: { medicina: 3, professor: 3, zoologia: 3 }
       },
       {
         id: "c",
-        text: "Traz segurança",
-        points: { administracao: 3, direito: 2, assistente: 2 }
+        text: "Buscando informações e referências pra deixar o projeto mais completo",
+        points: { jornalismo: 3, direito: 3 }
       },
       {
         id: "d",
-        text: "Surpreende ou emociona as pessoas",
-        points: { publicidade: 3, artes: 3, cinema: 3 }
+        text: "Organizando e direcionando o grupo",
+        points: { administracao: 3, informatica: 3 }
       },
       {
         id: "e",
-        text: "Pode 'colocar a mão na massa'",
-        points: { informatica: 3, zoologia: 3, administracao: 2 }
-      },
-      {
-        id: "f",
-        text: "Possui desafios",
-        points: { informatica: 3, medicina: 2, direito: 2, jornalismo: 2 }
+        text: "Dando ideias e sugestões criativas",
+        points: { artes: 3 }
       }
     ]
   },
   {
     id: 3,
-    question: "Quais temas costumam chamar sua atenção em notícias e leituras?",
+    question: "Quais tipos de temas mais despertam sua curiosidade no dia a dia?",
     options: [
       {
         id: "a",
-        text: "Assuntos relacionados a novidades e avanços que transformam o cotidiano",
-        points: { informatica: 3 }
+        text: "Organização, finanças e dinâmicas de trabalho",
+        points: { administracao: 3 }
       },
       {
         id: "b",
-        text: "Conteúdos que falam sobre qualidade de vida e cuidados essenciais",
-        points: { medicina: 3 }
+        text: "Diferentes formas de expressão e cultura",
+        points: { cinema: 3, artes: 3 }
       },
       {
         id: "c",
-        text: "Informações que exploram diferentes formas de expressão e tradições",
-        points: { artes: 3 }
+        text: "Relações entre grupos e comunidades",
+        points: { publicidade: 3, jornalismo: 3 }
       },
       {
         id: "d",
-        text: "Temas que discutem o funcionamento das relações entre grupos e comunidades",
-        points: { direito: 3 }
+        text: "Novidades e avanços que transformam o cotidiano",
+        points: { informatica: 3, direito: 3 }
       },
       {
         id: "e",
-        text: "Notícias sobre organização, finanças e dinâmicas de trabalho",
-        points: { administracao: 3 }
+        text: "Questões sobre bem-estar e qualidade de vida",
+        points: { medicina: 3, professor: 3, zoologia: 3 }
       }
     ]
   },
@@ -540,214 +498,214 @@ export const testQuestions: TestQuestion[] = [
     options: [
       {
         id: "a",
-        text: "Gosto de lidar com situações que exigem soluções práticas e eficazes",
-        points: { informatica: 3, medicina: 2, administracao: 2 }
+        text: "Criar algo original, seja de forma visual, verbal ou outra",
+        points: { artes: 3, cinema: 3 }
       },
       {
         id: "b",
-        text: "Sinto satisfação em estar presente para apoiar os outros, mesmo em pequenos detalhes",
-        points: { assistente: 3, professor: 2, medicina: 2 }
+        text: "Organizar atividades ou recursos pra atingir um objetivo",
+        points: { jornalismo: 3, publicidade: 3 }
       },
       {
         id: "c",
-        text: "Me sinto vivo quando posso criar algo original, seja de forma visual, verbal ou outra",
-        points: { artes: 3, cinema: 2, publicidade: 2, jornalismo: 2 }
+        text: "Estar presente pra apoiar os outros, mesmo em pequenos detalhes",
+        points: { medicina: 3, professor: 3 }
       },
       {
         id: "d",
-        text: "Curioso(a) por natureza, gosto de encontrar sentido e padrões em diferentes contextos",
-        points: { direito: 3, jornalismo: 2, professor: 2, zoologia: 2 }
+        text: "Lidar com situações que exigem soluções práticas e eficazes",
+        points: { informatica: 3, administracao: 3 }
       },
       {
         id: "e",
-        text: "Prefiro quando consigo organizar atividades ou recursos para que um objetivo seja atingido",
-        points: { administracao: 3, direito: 2, informatica: 2 }
+        text: "Investigar, analisar e encontrar sentido nas coisas",
+        points: { zoologia: 3, direito: 3 }
       }
     ]
   },
   {
     id: 5,
-    question: "Como você prefere aprender algo novo?",
+    question: "Para você, um bom professor é aquele que...",
     options: [
       {
         id: "a",
-        text: "Através de experimentos práticos e tentativa e erro",
-        points: { informatica: 3, medicina: 2, zoologia: 2 }
+        text: "Estimula o aluno a questionar e aprofundar conhecimentos",
+        points: { informatica: 3, professor: 3 }
       },
       {
         id: "b",
-        text: "Estudando teorias e conceitos em profundidade",
-        points: { professor: 3, direito: 2, medicina: 2 }
+        text: "Dá a chance do aluno ter ou fazer suas experiências",
+        points: { artes: 3, zoologia: 3 }
       },
       {
         id: "c",
-        text: "Interagindo e aprendendo com outras pessoas",
-        points: { professor: 3, jornalismo: 2, administracao: 2 }
+        text: "Transmite o conteúdo completo, sem deixar nada pra trás",
+        points: { administracao: 3, direito: 3 }
       },
       {
         id: "d",
-        text: "Através de recursos visuais e criativos",
-        points: { artes: 3, cinema: 2, publicidade: 2 }
+        text: "Ensina a trabalhar em grupo",
+        points: { cinema: 3, publicidade: 3, jornalismo: 3 }
       },
       {
         id: "e",
-        text: "Analisando casos práticos e exemplos reais",
-        points: { direito: 3, medicina: 2, administracao: 2 }
+        text: "Ajuda a identificar os interesses e talentos de seus alunos",
+        points: { medicina: 3, professor: 3 }
       }
     ]
   },
   {
     id: 6,
-    question: "O que mais te motiva em um trabalho?",
+    question: "Você imagina se destacar profissionalmente...",
     options: [
       {
         id: "a",
-        text: "Estar envolvido(a) em processos que trazem algo novo e melhor para as situações",
-        points: { informatica: 3, publicidade: 3, artes: 2, cinema: 2 }
+        text: "Pela sua ótima capacidade de análise",
+        points: { zoologia: 3, administracao: 3 }
       },
       {
         id: "b",
-        text: "Sentir que o que faço tem um efeito positivo na vida das pessoas ao meu redor",
-        points: { medicina: 3, zoologia: 2, professor: 3, assistente: 3 }
+        text: "Pela sua excelência em estruturar processos",
+        points: { direito: 3 }
       },
       {
         id: "c",
-        text: "Ter espaço para criar e experimentar ideias de forma livre e pessoal",
-        points: { artes: 3, publicidade: 3, cinema: 3, jornalismo: 2 }
+        text: "Pelas suas ótimas habilidades de Comunicação",
+        points: { jornalismo: 3, publicidade: 3 }
       },
       {
         id: "d",
-        text: "Desafiar minha mente para entender situações complexas e encontrar soluções",
-        points: { informatica: 3, direito: 3, jornalismo: 2 }
+        text: "Por propor novas formas de fazer as coisas ou pelo seu senso estético aguçado",
+        points: { artes: 3, cinema: 3 }
       },
       {
         id: "e",
-        text: "Coordenar esforços e recursos para que metas sejam alcançadas com sucesso",
-        points: { administracao: 3, assistente: 2, professor: 2 }
+        text: "Pela sua objetividade",
+        points: { informatica: 3, direito: 3 }
       }
     ]
   },
   {
     id: 7,
-    question: "Qual característica costuma influenciar mais suas ações?",
+    question: "Em um problema complexo, qual aspecto você prioriza?",
     options: [
       {
         id: "a",
-        text: "Encontrar formas estruturadas para entender e resolver situações.",
-        points: { informatica: 3, publicidade: 2, cinema: 2 }
+        text: "Consequências e responsabilidades envolvidas",
+        points: { zoologia: 3, medicina: 3 }
       },
       {
         id: "b",
-        text: "Estar atento às necessidades e dinâmicas entre as pessoas.",
-        points: { medicina: 3, assistente: 2, zoologia: 2 }
+        text: "Originalidade e inovação",
+        points: { cinema: 3, artes: 3 }
       },
       {
         id: "c",
-        text: "Buscar maneiras diferentes e originais para se expressar.",
-        points: { artes: 3, cinema: 2, jornalismo: 2 }
+        text: "Viabilidade e resultados",
+        points: { administracao: 3 }
       },
       {
         id: "d",
-        text: "Facilitar o trabalho coletivo e a organização de atividades.",
-        points: { professor: 3, direito: 2, jornalismo: 2, administracao: 2 }
+        text: "Eficiência e praticidade da solução",
+        points: { informatica: 3, direito: 3 }
       },
       {
         id: "e",
-        text: "Ter interesse constante em descobrir e compreender coisas novas.",
-        points: { administracao: 3, direito: 2, informatica: 2 }
+        text: "Impacto nas pessoas envolvidas",
+        points: { jornalismo: 3, publicidade: 3, professor: 3 }
       }
     ]
   },
   {
     id: 8,
-    question: "Em um problema complexo, qual aspecto você prioriza?",
+    question: "Qual característica mais se destaca em você?",
     options: [
       {
         id: "a",
-        text: "Eficiência e praticidade da solução",
-        points: { informatica: 3, administracao: 2 }
+        text: "Naturalmente assumo a frente em projetos, organizando pessoas e tarefas com clareza",
+        points: { jornalismo: 3, publicidade: 3 }
       },
       {
         id: "b",
-        text: "Impacto nas pessoas envolvidas",
-        points: { medicina: 3, direito: 2, assistente: 2 }
+        text: "Tenho uma vontade constante de aprender mais e entender a fundo aquilo que me intriga",
+        points: { direito: 3, zoologia: 3 }
       },
       {
         id: "c",
-        text: "Originalidade e inovação",
-        points: { publicidade: 3, artes: 2, cinema: 2 }
+        text: "Gosto de encontrar soluções pra problemas complexos e analisar os fatos de forma objetiva",
+        points: { informatica: 3, administracao: 3 }
       },
       {
         id: "d",
-        text: "Aspectos legais e éticos",
-        points: { direito: 3, jornalismo: 2, professor: 2 }
+        text: "Tenho facilidade em pensar fora da caixa e me expresso bem por meio de ideias ou criações",
+        points: { artes: 3, cinema: 3 }
       },
       {
         id: "e",
-        text: "Viabilidade e resultados",
-        points: { administracao: 3, informatica: 2 }
+        text: "Costumo perceber o que os outros sentem e me preocupo em ajudar",
+        points: { professor: 3, medicina: 3 }
       }
     ]
   },
   {
     id: 9,
-    question: "Como você prefere contribuir para a sociedade?",
+    question: "Você gosta mais de atividades que envolvam...",
     options: [
       {
         id: "a",
-        text: "Desenvolvendo soluções tecnológicas",
-        points: { informatica: 3 }
+        text: "Criação, expressão ou beleza",
+        points: { cinema: 3, artes: 3 }
       },
       {
         id: "b",
-        text: "Cuidando e ajudando pessoas",
-        points: { medicina: 3, assistente: 2, professor: 2 }
+        text: "Planejamento, ordenação ou cálculo",
+        points: { direito: 3, administracao: 3 }
       },
       {
         id: "c",
-        text: "Criando e inspirando através da arte",
-        points: { artes: 3, cinema: 2, publicidade: 2 }
+        text: "Máquinas, atividade corporal, alimentos, plantas ou animais",
+        points: { medicina: 3, zoologia: 3 }
       },
       {
         id: "d",
-        text: "Promovendo justiça e igualdade",
-        points: { direito: 3, jornalismo: 2 }
+        text: "Estratégia, compra e venda",
+        points: { publicidade: 3 }
       },
       {
         id: "e",
-        text: "Gerando valor e desenvolvimento econômico",
-        points: { administracao: 3, informatica: 2 }
+        text: "Relacionamento, cuidado ou mediação interpessoal",
+        points: { jornalismo: 3 }
       }
     ]
   },
   {
     id: 10,
-    question: "Qual característica mais se destaca em você?",
+    question: "Com qual frase você mais se identifica?",
     options: [
       {
         id: "a",
-        text: " Gosto de encontrar soluções para problemas complexos, analisando os fatos de forma objetiva.",
-        points: { informatica: 3, medicina: 2 }
+        text: "Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito bela para ser insignificante. - Charles Chaplin",
+        points: { publicidade: 3, zoologia: 3 }
       },
       {
         id: "b",
-        text: "Costumo perceber facilmente o que os outros sentem e me preocupo em ajudar.",
-        points: { medicina: 3, assistente: 2, professor: 2 }
+        text: "Existe apenas um bem, o saber; e apenas um mal, a ignorância. - Sócrates",
+        points: { professor: 3, direito: 3 }
       },
       {
         id: "c",
-        text: "Tenho facilidade em pensar fora da caixa e me expresso bem por meio de ideias ou criações.",
-        points: { artes: 3, cinema: 2, publicidade: 2 }
+        text: "Mais vale um pássaro na mão do que dois voando",
+        points: { informatica: 3, administracao: 3 }
       },
       {
         id: "d",
-        text: "Naturalmente assumo a frente em projetos, organizando pessoas e tarefas com clareza.",
-        points: { administracao: 3, direito: 2, professor: 2 }
+        text: "A sensibilidade e a imaginação conservam a mocidade imortal da alma. - Anne Louise Germaine de Staël",
+        points: { artes: 3, cinema: 3 }
       },
       {
         id: "e",
-        text: " Sinto uma vontade constante de aprender mais e entender a fundo aquilo que me intriga",
-        points: { jornalismo: 3, zoologia: 2, professor: 2 }
+        text: "Uma grama de ação vale uma tonelada de teoria. - Friedrich Engels",
+        points: { jornalismo: 3 }
       }
     ]
   }

@@ -6,7 +6,8 @@ import {
   TestOption,
   VocationalProfile,
 } from '../data/testQuestions';
-import { ArrowLeft, ArrowRight, HelpCircle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, HelpCircle, BookOpen } from 'lucide-react';
+import ProfessionModal from '../components/ProfessionModal';
 
 const Test: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
@@ -22,11 +23,11 @@ const Test: React.FC = () => {
     direito: 0,
     cinema: 0,
     professor: 0,
-    assistente: 0,
   });
   const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [showWelcome, setShowWelcome] = useState<boolean>(true);
+  const [showProfessionModal, setShowProfessionModal] = useState<boolean>(false);
   const navigate = useNavigate();
 
   const handleAnswer = (
@@ -162,9 +163,17 @@ const Test: React.FC = () => {
             <h1 className="text-3xl md:text-4xl font-cinzel font-bold text-accent-gold mb-4">
               Teste Vocacional
             </h1>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-4">
               Responda honestamente para descobrir sua verdadeira vocação
             </p>
+
+            <button
+              onClick={() => setShowProfessionModal(true)}
+              className="btn-secondary flex items-center mx-auto mb-6"
+            >
+              <BookOpen size={16} className="mr-2" />
+              Ver Profissões
+            </button>
 
             {/* Barra de progresso */}
             <div className="relative w-full h-2 bg-dark-blue rounded-full overflow-hidden">
@@ -281,6 +290,11 @@ const Test: React.FC = () => {
           </motion.div>
         </motion.div>
       </div>
+
+      <ProfessionModal
+        isOpen={showProfessionModal}
+        onClose={() => setShowProfessionModal(false)}
+      />
     </div>
   );
 };

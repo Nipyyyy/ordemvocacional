@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { vocationalProfiles, VocationalProfile } from '../data/testQuestions';
-import { User, Clock, Award, BookOpen, Star, ChevronDown, ChevronUp, Share2 } from 'lucide-react';
+import { professionCategories } from '../data/tokensData';
+import { getMapForProfession } from '../utils/professionMapUtils';
+import { User, Clock, Award, BookOpen, Star, ChevronDown, ChevronUp, Share2, Map as MapIcon } from 'lucide-react';
 
 interface TestResult {
   dominantProfile: VocationalProfile;
@@ -91,6 +93,13 @@ const Results: React.FC = () => {
     month: '2-digit',
     year: 'numeric'
   });
+
+  const mainProfessionCategory = professionCategories.find(
+    cat => cat.id === result.dominantProfile ||
+    (result.dominantProfile === 'professor' && cat.id === 'educacao')
+  );
+
+  const mainProfessionMap = getMapForProfession(result.dominantProfile);
 
   return (
     <div className="min-h-screen pt-24 pb-16">
@@ -188,6 +197,66 @@ const Results: React.FC = () => {
               </div>
             </div>
           </div>
+
+          {/* Tokens e Mapas da Profissão */}
+          {mainProfessionCategory && (
+            <div className="card mb-8">
+              <h2 className="text-2xl font-cinzel font-bold text-accent-gold mb-6 text-center">
+                Materiais RPG da sua Profissão
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
+                    Tokens (Bonecos)
+                  </h3>
+                  <div className="grid grid-cols-3 gap-4">
+                    {mainProfessionCategory.tokens.map((token) => (
+                      <div
+                        key={token.id}
+                        className="bg-dark-purple/30 rounded-lg p-3 border border-light-purple/20"
+                      >
+                        <div className="aspect-square rounded-lg overflow-hidden mb-2 bg-dark-blue/50">
+                          <img
+                            src={token.imagePath}
+                            alt={token.name}
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                        <h4 className="text-xs font-cinzel font-semibold text-accent-gold text-center">
+                          {token.name}
+                        </h4>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {mainProfessionMap && (
+                  <div>
+                    <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4 flex items-center">
+                      <MapIcon size={20} className="mr-2" />
+                      Mapa do Cenário
+                    </h3>
+                    <div className="bg-dark-purple/30 rounded-lg p-4 border border-light-purple/20">
+                      <div className="aspect-video rounded-lg overflow-hidden mb-3 bg-dark-blue/50">
+                        <img
+                          src={mainProfessionMap.imagePath}
+                          alt={mainProfessionMap.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <h4 className="text-lg font-cinzel font-semibold text-accent-gold mb-2">
+                        {mainProfessionMap.name}
+                      </h4>
+                      <p className="text-gray-300 text-sm">
+                        {mainProfessionMap.description}
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
 
           {/* Detalhes do Perfil */}
           <div className="space-y-4">

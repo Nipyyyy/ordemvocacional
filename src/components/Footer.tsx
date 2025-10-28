@@ -5,7 +5,7 @@ import logo from '../assets/logo.tsx';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-dark-blue/90 border-t border-light-purple/20 pt-12 pb-6" role="contentinfo">
+    <footer className="bg-dark-blue/40 backdrop-blur-xl border-t border-white/10 pt-12 pb-6 shadow-[0_-4px_20px_rgba(107,78,255,0.1)]" role="contentinfo">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Info */}

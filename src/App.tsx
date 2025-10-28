@@ -15,9 +15,9 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen bg-gradient-to-br from-dark-blue to-dark-purple text-white">
+      <div className="flex flex-col min-h-screen text-white relative z-10">
         <Header />
-        <main id="main-content" className="flex-grow" role="main">
+        <main id="main-content" className="flex-grow relative z-10" role="main">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />

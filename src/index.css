@@ -18,10 +18,56 @@
 body {
   font-family: 'Poppins', sans-serif;
   @apply antialiased;
-  background-image: url('https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?auto=compress&cs=tinysrgb&w=1600');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 25%, #0f0f17 50%, #1e0833 75%, #0a0a1a 100%);
   background-attachment: fixed;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(ellipse at 20% 30%, rgba(107, 78, 255, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(157, 143, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(107, 78, 255, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: -50%;
+  left: -10%;
+  width: 120%;
+  height: 200%;
+  background:
+    linear-gradient(135deg, transparent 45%, rgba(107, 78, 255, 0.08) 48%, rgba(107, 78, 255, 0.15) 50%, rgba(107, 78, 255, 0.08) 52%, transparent 55%),
+    linear-gradient(225deg, transparent 45%, rgba(157, 143, 255, 0.05) 48%, rgba(157, 143, 255, 0.1) 50%, rgba(157, 143, 255, 0.05) 52%, transparent 55%);
+  background-size: 200% 200%;
+  pointer-events: none;
+  z-index: 0;
+  animation: wave-movement 20s ease-in-out infinite;
+}
+
+@keyframes wave-movement {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(2%, -2%) rotate(1deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  75% {
+    transform: translate(-2%, 2%) rotate(-1deg);
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,15 +76,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @layer components {
   .btn-primary {
-    @apply bg-white hover:bg-gray-100 text-dark-blue font-medium py-2 px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-accent-purple/40 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-blue;
+    @apply bg-white/90 backdrop-blur-md hover:bg-white text-dark-blue font-medium py-2 px-6 rounded-md transition-all duration-300 shadow-lg shadow-purple-500/20 hover:shadow-purple-500/40 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-blue border border-white/20;
   }
-  
+
   .btn-secondary {
-    @apply bg-transparent border border-white text-white hover:bg-white/10 font-medium py-2 px-6 rounded-md transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-blue;
+    @apply bg-white/10 backdrop-blur-md border border-white/30 text-white hover:bg-white/20 font-medium py-2 px-6 rounded-md transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-dark-blue shadow-lg shadow-purple-500/10;
   }
-  
+
   .card {
-    @apply bg-dark-blue/90 backdrop-blur-md border border-light-purple/20 rounded-lg p-6 shadow-xl hover:shadow-accent-purple/30 transition-all duration-500 hover:border-light-purple/40 hover:transform hover:scale-[1.02];
+    @apply bg-dark-blue/30 backdrop-blur-xl border border-white/10 rounded-lg p-6 shadow-xl shadow-purple-500/10 hover:shadow-purple-500/20 transition-all duration-500 hover:border-white/20 hover:transform hover:scale-[1.02];
     position: relative;
     overflow: hidden;
   }
@@ -50,15 +96,12 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?auto=compress&cs=tinysrgb&w=1600');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.05;
+    background: linear-gradient(135deg, rgba(107, 78, 255, 0.03) 0%, transparent 100%);
     z-index: -1;
   }
   
   .input-field {
-    @apply bg-dark-blue/60 border border-light-purple/30 text-white rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white transition-all duration-300 hover:border-light-purple/50;
+    @apply bg-dark-blue/30 backdrop-blur-xl border border-white/20 text-white rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white transition-all duration-300 hover:border-white/40 shadow-lg shadow-purple-500/5;
   }
   
   .page-container {
@@ -84,12 +127,17 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('https://images.pexels.com/photos/7130563/pexels-photo-7130563.jpeg?auto=compress&cs=tinysrgb&w=1600');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.1;
+    background: linear-gradient(135deg, rgba(107, 78, 255, 0.05) 0%, transparent 50%, rgba(157, 143, 255, 0.03) 100%);
     z-index: -1;
     pointer-events: none;
+  }
+
+  .glass-container {
+    @apply bg-dark-blue/20 backdrop-blur-2xl border border-white/10 rounded-lg shadow-xl shadow-purple-500/10;
+  }
+
+  .glass-strong {
+    @apply bg-dark-blue/40 backdrop-blur-xl border border-white/20 shadow-2xl shadow-purple-500/20;
   }
 }
 

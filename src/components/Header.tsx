@@ -25,9 +25,9 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header 
+    <header
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-dark-blue/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-dark-blue/40 backdrop-blur-xl shadow-lg shadow-purple-500/10 border-b border-white/10' : 'bg-dark-blue/20 backdrop-blur-md'
       }`}
     >
       <div className="container mx-auto px-4 py-3">
@@ -42,7 +42,7 @@ const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
+          <nav id="navigation" className="hidden md:flex items-center space-x-6" role="navigation" aria-label="Navegação principal">
             <Link to="/" className={`hover:text-accent-gold transition-colors ${location.pathname === '/' ? 'text-accent-gold' : 'text-white'}`}>Início</Link>
             <Link to="/sobre" className={`hover:text-accent-gold transition-colors ${location.pathname === '/sobre' ? 'text-accent-gold' : 'text-white'}`}>Sobre o Teste</Link>
             <Link to="/teste" className={`hover:text-accent-gold transition-colors ${location.pathname === '/teste' ? 'text-accent-gold' : 'text-white'}`}>Fazer Teste</Link>
@@ -55,6 +55,8 @@ const Header: React.FC = () => {
             className="md:hidden text-white focus:outline-none"
             onClick={toggleMenu}
             aria-label={isMenuOpen ? 'Fechar menu' : 'Abrir menu'}
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -63,7 +65,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Navigation Menu */}
       {isMenuOpen && (
-        <nav className="md:hidden bg-dark-blue/95 backdrop-blur-md border-t border-light-purple/20 animate-fade-in">
+        <nav id="mobile-menu" className="md:hidden bg-dark-blue/40 backdrop-blur-xl border-t border-white/10 animate-fade-in shadow-lg shadow-purple-500/10" role="navigation" aria-label="Navegação móvel">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <Link to="/" className={`py-2 ${location.pathname === '/' ? 'text-accent-gold' : 'text-white'}`} onClick={closeMenu}>Início</Link>
             <Link to="/sobre" className={`py-2 ${location.pathname === '/sobre' ? 'text-accent-gold' : 'text-white'}`} onClick={closeMenu}>Sobre o Teste</Link>

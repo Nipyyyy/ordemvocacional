@@ -546,9 +546,9 @@ const TokensAndMaps: React.FC = () => {
                                 {token.description}
                               </p>
                               <div className="flex space-x-2">
-                                <button className="btn-primary flex-1 flex items-center justify-center">
-                                  <Eye size={16} className="mr-2" />
-                                  Visualizar
+                                <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
+                                  <Eye size={14} className="mr-1" />
+                                  Ver
                                 </button>
                               </div>
                             </motion.div>
@@ -599,7 +599,6 @@ const TokensAndMaps: React.FC = () => {
                         <Eye size={14} className="mr-1" />
                         Ver
                       </button>
-
                     </div>
                   </motion.div>
                 ))}
@@ -639,10 +638,10 @@ const TokensAndMaps: React.FC = () => {
                   <div className="flex space-x-3">
                     <button
                       onClick={() => openMapModal(map)}
-                      className="btn-primary flex-1 flex items-center justify-center"
+                      className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center"
                     >
-                      <Eye size={16} className="mr-2" />
-                      Visualizar
+                      <Eye size={14} className="mr-1" />
+                      Ver
                     </button>
                   </div>
                 </div>

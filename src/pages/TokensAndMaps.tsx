@@ -550,10 +550,6 @@ const TokensAndMaps: React.FC = () => {
                                   <Eye size={14} className="mr-1" />
                                   Ver
                                 </button>
-                                <button className="flex-1 bg-dark-blue/50 hover:bg-dark-blue text-white text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                                  <Download size={14} className="mr-1" />
-                                  Baixar
-                                </button>
                               </div>
                             </motion.div>
                           ))}
@@ -650,10 +646,6 @@ const TokensAndMaps: React.FC = () => {
                     >
                       <Eye size={16} className="mr-2" />
                       Visualizar
-                    </button>
-                    <button className="btn-secondary flex items-center justify-center px-4">
-                      <Download size={16} className="mr-2" />
-                      Baixar
                     </button>
                   </div>
                 </div>

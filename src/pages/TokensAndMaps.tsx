@@ -384,7 +384,7 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'usuario-ti',
       name: 'Usuário com Problema',
-      description: 'Funcionário com problema no computador',
+      description: 'Funcionário com problema não conseguindo enteder algo',
       imagePath: 'https://images.pexels.com/photos/33442217/pexels-photo-33442217.png?_gl=1*1lpdk96*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNjkwNTEkbzYkZzEkdDE3NTUxNjk5MTQkajU5JGwwJGgw',
     },
     {
@@ -395,7 +395,7 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'enfermeira-1',
-      name: 'Pessoa sendo advogado em um tribunal',
+      name: 'Pessoa sendo advogado em um tribunal de justiça',
       description: 'Pessoa em um tribunal',
       imagePath: 'https://images.pexels.com/photos/34026378/pexels-photo-34026378.png',
     },

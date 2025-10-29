@@ -390,7 +390,7 @@ const TokensAndMaps: React.FC = () => {
     {
       id: 'cliente-agencia',
       name: 'Pessoa com Deficiência Visual',
-      description: 'Pessoa com deficiência visual e identificação',
+      description: 'Pessoa com deficiência visual total e identificação',
       imagePath: 'https://images.pexels.com/photos/33442215/pexels-photo-33442215.png?_gl=1*1ry98kz*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNjkwNTEkbzYkZzEkdDE3NTUxNjk5NjgkajUkbDAkaDA.',
     },
     {

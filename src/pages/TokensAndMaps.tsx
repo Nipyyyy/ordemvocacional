@@ -546,9 +546,9 @@ const TokensAndMaps: React.FC = () => {
                                 {token.description}
                               </p>
                               <div className="flex space-x-2">
-                                <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                                  <Eye size={14} className="mr-1" />
-                                  Ver
+                                <button className="btn-primary flex-1 flex items-center justify-center">
+                                  <Eye size={16} className="mr-2" />
+                                  Visualizar
                                 </button>
                               </div>
                             </motion.div>

@@ -377,7 +377,7 @@ const TokensAndMaps: React.FC = () => {
   const npcTokens: Token[] = [
     {
       id: 'paciente-1',
-      name: 'Paciente com Machucados',
+      name: 'Paciente com varios ferimentos',
       description: 'Paciente jovem depois de sofrer um acidente',
       imagePath: 'https://images.pexels.com/photos/33442216/pexels-photo-33442216.png?_gl=1*sspd6w*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNjkwNTEkbzYkZzEkdDE3NTUxNjk5NTMkajIwJGwwJGgw',
     },
@@ -395,13 +395,13 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'enfermeira-1',
-      name: 'Pessoa sendo julgada no tribunal',
+      name: 'Pessoa sendo advogado em um tribunal',
       description: 'Pessoa em um tribunal',
       imagePath: 'https://images.pexels.com/photos/34026378/pexels-photo-34026378.png',
     },
     {
       id: 'gerente-ti',
-      name: 'Idosa insatifeita e brava',
+      name: 'Idosa insatifeita e brava com serviço',
       description: 'Cliente insatisfeita com serviço de TI',
       imagePath: 'https://images.pexels.com/photos/34282218/pexels-photo-34282218.png?_gl=1*1pa8qqj*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwODIxJGo1OSRsMCRoMA..',
     },
@@ -425,7 +425,7 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'familia-vulneravel',
-      name: 'Criança de etnia asiática',
+      name: 'Criança de etnia asiática sorridente',
       description: 'Criança asiática sorridente',
       imagePath: 'https://images.pexels.com/photos/34282223/pexels-photo-34282223.png?_gl=1*1jdf6rc*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDAzJGo0JGwwJGgw',
     },

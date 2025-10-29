@@ -377,7 +377,7 @@ const TokensAndMaps: React.FC = () => {
   const npcTokens: Token[] = [
     {
       id: 'paciente-1',
-      name: 'Paciente Machucado',
+      name: 'Paciente com Machucados',
       description: 'Paciente jovem depois de sofrer um acidente',
       imagePath: 'https://images.pexels.com/photos/33442216/pexels-photo-33442216.png?_gl=1*sspd6w*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NTUxNjkwNTEkbzYkZzEkdDE3NTUxNjk5NTMkajIwJGwwJGgw',
     },
@@ -395,37 +395,37 @@ const TokensAndMaps: React.FC = () => {
     },
     {
       id: 'enfermeira-1',
-      name: 'Pessoa sendo julgada',
+      name: 'Pessoa sendo julgada no tribunal',
       description: 'Pessoa em um tribunal',
       imagePath: 'https://images.pexels.com/photos/34026378/pexels-photo-34026378.png',
     },
     {
       id: 'gerente-ti',
-      name: 'Idosa Brava',
+      name: 'Idosa insatifeita e brava',
       description: 'Cliente insatisfeita com serviço de TI',
       imagePath: 'https://images.pexels.com/photos/34282218/pexels-photo-34282218.png?_gl=1*1pa8qqj*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwODIxJGo1OSRsMCRoMA..',
     },
     {
       id: 'aluno-1',
-      name: 'Aluno Curioso',
+      name: 'Aluno querendo fazer uma perguntas',
       description: 'Estudante fazendo perguntas',
       imagePath: 'https://images.pexels.com/photos/34282226/pexels-photo-34282226.png?_gl=1*mxmh3r*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwMzg2JGoyMSRsMCRoMA..',
     },
     {
       id: 'cliente-juridico',
-      name: 'Criança albina',
+      name: 'Criança com albinismo observando',
       description: 'Criança albina desconfiada',
       imagePath: 'https://images.pexels.com/photos/34282222/pexels-photo-34282222.png?_gl=1*jemqz7*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDYyJGozMCRsMCRoMA..',
     },
     {
       id: 'entrevistado',
-      name: 'Aluno com autismo',
+      name: 'Aluno com autismo curioso com algo',
       description: 'Aluno com transtorno do espectro autista',
       imagePath: 'https://images.pexels.com/photos/34282221/pexels-photo-34282221.png?_gl=1*19dzhll*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDMzJGo1OSRsMCRoMA..',
     },
     {
       id: 'familia-vulneravel',
-      name: 'Criança Asiatica',
+      name: 'Criança de etnia asiática',
       description: 'Criança asiática sorridente',
       imagePath: 'https://images.pexels.com/photos/34282223/pexels-photo-34282223.png?_gl=1*1jdf6rc*_ga*NjI3Njc3MTY4LjE3NTQ5MTEwNDU.*_ga_8JE65Q40S6*czE3NjAzNTAyODckbzMwJGcxJHQxNzYwMzUwNDAzJGo0JGwwJGgw',
     },

@@ -134,7 +134,7 @@ const RPGInfo: React.FC = () => {
                         </p>
                       </div>
                       
-                      <div className="bg-dark-blue/70 p-4 rounded-lg border border-light-purple/30">
+                      <div className="glass-container p-4 rounded-lg">
                         <h3 className="text-lg font-cinzel font-semibold text-accent-gold mb-2">
                           Acesse o Livro de Regras Completo
                         </h3>
@@ -218,7 +218,7 @@ const RPGInfo: React.FC = () => {
                     O Mestre é o coração de qualquer sessão de RPG. Aqui estão algumas dicas essenciais para conduzir aventuras memoráveis no universo de Ordem Vocacional.
                   </p>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
                       Preparação da Sessão
                     </h3>
@@ -238,7 +238,7 @@ const RPGInfo: React.FC = () => {
                     </ul>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
                       Conduzindo a Narrativa
                     </h3>
@@ -258,7 +258,7 @@ const RPGInfo: React.FC = () => {
                     </ul>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
                       Gerenciando Dificuldade
                     </h3>
@@ -278,7 +278,7 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
                       Improvisação
                     </h3>
@@ -298,7 +298,7 @@ const RPGInfo: React.FC = () => {
                     </ul>
                   </div>
 
-                  <div className="bg-dark-blue/50 p-6 rounded-lg border border-accent-gold/30">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-lg font-cinzel font-semibold text-accent-gold mb-3">
                       Dica
                     </h3>
@@ -325,7 +325,7 @@ const RPGInfo: React.FC = () => {
                         Crie seu personagem e comece sua aventura no mundo das profissões!
                       </p>
 
-                      <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                      <div className="glass-container p-6 rounded-lg">
                         <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
                           Profissões Disponíveis
                         </h3>
@@ -423,7 +423,7 @@ const RPGInfo: React.FC = () => {
                     Para começar a jogar, siga esses passos simples e mergulhe em aventuras vocacionais únicas!
                   </p>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4">
                       Como Começar
                     </h3>
@@ -464,9 +464,9 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-gradient-to-r from-light-purple/20 to-dark-purple/20 p-6 rounded-lg border border-light-purple/30">
+                  <div className="glass-container p-6 rounded-lg">
                     <div className="flex items-start">
-                      <div className="bg-light-purple/30 rounded-full p-3 mr-4">
+                      <div className="glass-container rounded-full p-3 mr-4">
                         <Dices className="text-accent-gold" size={24} />
                       </div>
                       <div className="flex-1">
@@ -481,27 +481,27 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-4 flex items-center">
                       <Dices className="mr-3" size={24} />
                       Regras Básicas
                     </h3>
 
                     <div className="space-y-4 mb-6">
-                      <div className="bg-dark-blue/50 p-4 rounded-lg">
+                      <div className="glass-container p-4 rounded-lg">
                         <h4 className="text-white font-medium mb-2">Sistema de Rolagem D6</h4>
                         <p className="text-gray-300 text-sm mb-3">
                           As ações são decididas na rolagem de um dado de seis lados (D6):
                         </p>
                         <div className="grid md:grid-cols-2 gap-3">
-                          <div className="flex items-center bg-green-500/10 p-3 rounded border border-green-500/30">
+                          <div className="flex items-center glass-container p-3 rounded">
                             <span className="text-2xl mr-3">🎲</span>
                             <div>
                               <div className="text-green-400 font-medium text-sm">Número Alto</div>
                               <div className="text-gray-400 text-xs">Sucesso na ação</div>
                             </div>
                           </div>
-                          <div className="flex items-center bg-red-500/10 p-3 rounded border border-red-500/30">
+                          <div className="flex items-center glass-container p-3 rounded">
                             <span className="text-2xl mr-3">💥</span>
                             <div>
                               <div className="text-red-400 font-medium text-sm">Número Baixo</div>
@@ -511,7 +511,7 @@ const RPGInfo: React.FC = () => {
                         </div>
                       </div>
 
-                      <div className="bg-accent-gold/10 p-6 rounded-lg border border-accent-gold/30">
+                      <div className="glass-container p-6 rounded-lg">
                         <h4 className="text-accent-gold font-cinzel font-semibold mb-4 text-center text-lg">
                           Rolagem Virtual de D6
                         </h4>
@@ -562,7 +562,7 @@ const RPGInfo: React.FC = () => {
                       </div>
 
                       <div className="space-y-3">
-                        <div className="flex items-start bg-dark-blue/30 p-4 rounded-lg">
+                        <div className="flex items-start glass-container p-4 rounded-lg">
                           <span className="text-accent-gold mr-3 mt-1">•</span>
                           <div>
                             <span className="text-white font-medium">Interprete sua profissão!</span>
@@ -572,7 +572,7 @@ const RPGInfo: React.FC = () => {
                           </div>
                         </div>
 
-                        <div className="flex items-start bg-dark-blue/30 p-4 rounded-lg">
+                        <div className="flex items-start glass-container p-4 rounded-lg">
                           <span className="text-accent-gold mr-3 mt-1">•</span>
                           <div>
                             <span className="text-white font-medium">O papel do Mestre</span>
@@ -586,7 +586,7 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-blue/50 p-6 rounded-lg border border-accent-gold/30">
+                  <div className="glass-container p-6 rounded-lg">
                     <h3 className="text-lg font-cinzel font-semibold text-accent-gold mb-3">
                       Pronto para Começar?
                     </h3>
@@ -620,7 +620,7 @@ const RPGInfo: React.FC = () => {
                 </p>
 
                 <div className="space-y-6">
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
                         <h3 className="text-xl font-cinzel font-semibold text-white mb-2">
@@ -647,7 +647,7 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
                         <h3 className="text-xl font-cinzel font-semibold text-white mb-2">
@@ -674,7 +674,7 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
                         <h3 className="text-xl font-cinzel font-semibold text-white mb-2">
@@ -701,7 +701,7 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
                         <h3 className="text-xl font-cinzel font-semibold text-white mb-2">
@@ -728,7 +728,7 @@ const RPGInfo: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-dark-purple/30 p-6 rounded-lg border border-light-purple/20">
+                  <div className="glass-container p-6 rounded-lg">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
                         <h3 className="text-xl font-cinzel font-semibold text-white mb-2">

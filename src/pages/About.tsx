@@ -30,7 +30,7 @@ const About: React.FC = () => {
       </section>
 
       {/* About Content */}
-      <section className="py-12 bg-dark-blue/50">
+      <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -65,7 +65,7 @@ const About: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="h-full bg-dark-purple/30 p-8 rounded-lg border border-light-purple/20"
+              className="h-full glass-container p-8 rounded-lg"
             >
               <div className="flex items-center space-x-4 mb-6">
                 <BookOpen size={24} className="text-accent-gold" />
@@ -92,7 +92,7 @@ const About: React.FC = () => {
                     className="text-accent-gold mt-1 flex-shrink-0"
                   />
                   <span className="text-gray-300">
-                    Avaliação psicologica fundamentada em pesquisa
+                    Avaliação psicométrica fundamentada em pesquisa
                   </span>
                 </li>
                 <li className="flex items-start space-x-3">
@@ -252,7 +252,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-br from-dark-purple to-dark-blue">
+      <section className="py-16">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}

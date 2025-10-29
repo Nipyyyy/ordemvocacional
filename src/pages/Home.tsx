@@ -8,8 +8,6 @@ const Home: React.FC = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-stars-pattern bg-cover bg-center opacity-20"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-dark-blue/70 to-dark-purple/90"></div>
         
         <div className="container mx-auto px-4 z-10 mt-16">
           <motion.div 
@@ -46,9 +44,9 @@ const Home: React.FC = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-dark-blue/50">
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <motion.div 
+          <motion.div
             className="text-center mb-16"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -64,61 +62,61 @@ const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <motion.div 
-              className="card"
+            <motion.div
+              className="glass-container rounded-lg p-6 hover:border-white/30 transition-all duration-500"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              <div className="h-14 w-14 rounded-full bg-dark-purple flex items-center justify-center mb-6">
+              <div className="h-14 w-14 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center mb-6">
                 <BookOpen size={24} className="text-accent-gold" />
               </div>
               <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-3">
                 Teste Personalizado
               </h3>
               <p className="text-gray-300">
-                Responda perguntas cuidadosamente elaboradas que analisam 
+                Responda perguntas cuidadosamente elaboradas que analisam
                 suas habilidades, interesses e características de personalidade.
               </p>
             </motion.div>
 
             {/* Feature 2 */}
-            <motion.div 
-              className="card"
+            <motion.div
+              className="glass-container rounded-lg p-6 hover:border-white/30 transition-all duration-500"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="h-14 w-14 rounded-full bg-dark-purple flex items-center justify-center mb-6">
+              <div className="h-14 w-14 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center mb-6">
                 <Sparkles size={24} className="text-accent-gold" />
               </div>
               <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-3">
                 Análise Profunda
               </h3>
               <p className="text-gray-300">
-                Nosso teste avalia suas respostas e identifica caracteriticas 
+                Nosso teste avalia suas respostas e identifica caracteriticas
                 que revelam suas verdadeiras vocações e caminhos profissionais.
               </p>
             </motion.div>
 
             {/* Feature 3 */}
-            <motion.div 
-              className="card"
+            <motion.div
+              className="glass-container rounded-lg p-6 hover:border-white/30 transition-all duration-500"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              <div className="h-14 w-14 rounded-full bg-dark-purple flex items-center justify-center mb-6">
+              <div className="h-14 w-14 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center mb-6">
                 <Users size={24} className="text-accent-gold" />
               </div>
               <h3 className="text-xl font-cinzel font-semibold text-accent-gold mb-3">
                 Conexão com RPG
               </h3>
               <p className="text-gray-300">
-                Descubra sua profissão, habilidades e conhecimentos 
+                Descubra sua profissão, habilidades e conhecimentos
                 que vai estar conectado com seu personagem do RPG
               </p>
             </motion.div>
@@ -127,7 +125,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Call-to-Action Section */}
-      <section className="py-20 bg-gradient-to-br from-dark-purple to-dark-blue">
+      <section className="py-20">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
